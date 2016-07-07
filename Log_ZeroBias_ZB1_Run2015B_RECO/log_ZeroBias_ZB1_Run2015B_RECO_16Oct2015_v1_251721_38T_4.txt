@@ -1,0 +1,224 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+06-May-2016 11:03:51 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/10EC76C9-2179-E511-8D39-0025905A612A.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:03:52 CEST pre-events
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:03:54 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/10EC76C9-2179-E511-8D39-0025905A612A.root
+you are going to run on data-38T
+
+06-May-2016 11:04:09 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/10EC76C9-2179-E511-8D39-0025905A612A.root
+06-May-2016 11:04:09 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/121596EE-9D79-E511-B214-0025905A60F2.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:04:09 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:04:10 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/121596EE-9D79-E511-B214-0025905A60F2.root
+06-May-2016 11:04:20 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/121596EE-9D79-E511-B214-0025905A60F2.root
+06-May-2016 11:04:20 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/12711F7A-3279-E511-AA92-0025905B85EE.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:04:20 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:04:21 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/12711F7A-3279-E511-AA92-0025905B85EE.root
+%MSG-w XrdAdaptor:  (NoModuleName) 06-May-2016 11:04:35 CEST pre-events
+Data is now served from lnl.infn.it, fnal.gov instead of previous lnl.infn.it
+%MSG
+L1 Technical Trigger L1Tech_BPTX_PreBPTX.v0 is present with bit number 16
+L1 Technical Trigger L1Tech_BPTX_minus.v0 is present with bit number 2
+L1 Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 is present with bit number 6
+L1 Technical Trigger L1Tech_BPTX_plus.v0 is present with bit number 1
+L1 Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 is present with bit number 5
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 is present with bit number 0
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus_instance1.v0 is present with bit number 4
+L1 Technical Trigger L1Tech_BPTX_plus_OR_minus.v0 is present with bit number 3
+L1 Technical Trigger L1Tech_BPTX_quiet.v0 is present with bit number 7
+L1 Technical Trigger L1Tech_CASTOR_Gap.v0 is present with bit number 56
+L1 Technical Trigger L1Tech_CASTOR_HaloMuon.v0 is present with bit number 59
+L1 Technical Trigger L1Tech_CASTOR_HighJet.v0 is present with bit number 57
+L1 Technical Trigger L1Tech_CASTOR_MediumJet.v0 is present with bit number 58
+L1 Technical Trigger L1Tech_DT_GlobalOR.v0 is present with bit number 20
+L1 Technical Trigger L1Tech_HCAL_HBHE_totalOR.v0 is present with bit number 12
+L1 Technical Trigger L1Tech_HCAL_HF_MMP_or_MPP.v1 is present with bit number 10
+L1 Technical Trigger L1Tech_HCAL_HF_coincidence_PM.v2 is present with bit number 9
+L1 Technical Trigger L1Tech_HCAL_HF_single_channel.v0 is present with bit number 8
+L1 Technical Trigger L1Tech_HCAL_HO_totalOR.v0 is present with bit number 11
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus1_Cosmics.v0 is present with bit number 27
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus2_Cosmics.v0 is present with bit number 26
+L1 Technical Trigger L1Tech_RPC_TTU_barrel_Cosmics.v0 is present with bit number 24
+L1 Technical Trigger L1Tech_RPC_TTU_pointing_Cosmics.v0 is present with bit number 25
+L1 Technical Trigger L1Tech_TOTEM_0 is present with bit number 52
+L1 Technical Trigger L1Tech_TOTEM_1 is present with bit number 53
+L1 Technical Trigger L1Tech_TOTEM_2 is present with bit number 54
+L1 Technical Trigger L1Tech_TOTEM_3 is present with bit number 55
+L1 Technical Trigger L1Tech__TTU_RB0_Cosmics.v0 is present with bit number 28
+
+element 0 contains Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 with bit number 6
+element 1 contains Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 with bit number 5
+element 2 contains Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 with bit number 0
+element 3 contains Technical Trigger L1Tech_BPTX_quiet.v0 with bit number 7
+
+HLT configuration with process name HLT is valid
+
+New trigger menu found
+HLT_ZeroBias_part0_v1 with index 421 exists in the current menu
+HLT_ZeroBias_part1_v1 with index 422 exists in the current menu
+HLT_ZeroBias_part2_v1 with index 423 exists in the current menu
+HLT_ZeroBias_part3_v1 with index 424 exists in the current menu
+HLT_ZeroBias_part4_v1 with index 425 exists in the current menu
+HLT_ZeroBias_part5_v1 with index 426 exists in the current menu
+HLT_ZeroBias_part6_v1 with index 427 exists in the current menu
+HLT_ZeroBias_part7_v1 with index 428 exists in the current menu
+HLT_L1Tech5_BPTX_PlusOnly_v1 with index 429 exists in the current menu
+HLT_L1Tech6_BPTX_MinusOnly_v1 with index 430 exists in the current menu
+HLT_L1Tech7_NoBPTX_v1 with index 431 exists in the current menu
+
+%MSG-w XrdAdaptor:  PostBeginLumi 06-May-2016 11:04:50 CEST PostBeginLumi
+Data is now served from lnl.infn.it instead of previous lnl.infn.it, fnal.gov
+%MSG
+Begin processing the 1st record. Run 251721, Event 173658105, LumiSection 145 at 06-May-2016 11:04:50.213 CEST
+Begin processing the 2001st record. Run 251721, Event 173862548, LumiSection 145 at 06-May-2016 11:06:26.228 CEST
+Begin processing the 4001st record. Run 251721, Event 174758001, LumiSection 145 at 06-May-2016 11:07:59.628 CEST
+06-May-2016 11:09:24 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/12711F7A-3279-E511-AA92-0025905B85EE.root
+06-May-2016 11:09:24 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1427F481-1B79-E511-B8EB-0025905B8582.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:09:29 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:09:33 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1427F481-1B79-E511-B8EB-0025905B8582.root
+%MSG-w XrdAdaptor:  (NoModuleName) 06-May-2016 11:09:55 CEST pre-events
+Data is now served from lnl.infn.it, fnal.gov instead of previous lnl.infn.it
+%MSG
+[2016-05-06 11:12:52.961557 +0200][Error  ][XRootD            ] [193.206.93.51:24581] Handling error while processing kXR_readv (handle: 0x00000000, chunks: 379, total size: 191802): [ERROR] Socket error.
+[2016-05-06 11:12:52.961823 +0200][Error  ][XRootD            ] [193.206.93.51:24581] Unable to get the response to request kXR_readv (handle: 0x00000000, chunks: 379, total size: 191802)
+[2016-05-06 11:12:53.296740 +0200][Error  ][AsyncSock         ] [193.206.93.51:24581 #0.0] Socket error encountered: [ERROR] Socket error
+[2016-05-06 11:12:53.296841 +0200][Error  ][XRootD            ] [193.206.93.51:24581] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1427F481-1B79-E511-B8EB-0025905B8582.root?org.dcache.uuid=5bcdc765-fe75-4467-9cb6-76fc003d1b92, mode: 0660, flags: kXR_open_read ): [ERROR] Socket error.
+[2016-05-06 11:12:53.617587 +0200][Error  ][AsyncSock         ] [193.206.93.51:24581 #0.0] Socket error encountered: [ERROR] Socket error
+[2016-05-06 11:12:53.617700 +0200][Error  ][XRootD            ] [193.206.93.51:24581] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1427F481-1B79-E511-B8EB-0025905B8582.root?org.dcache.uuid=09736e9b-e486-4710-b3f8-e8f2ec04e55a&tried=193.206.93.51, mode: 0660, flags: kXR_open_read ): [ERROR] Socket error.
+[2016-05-06 11:12:53.963365 +0200][Error  ][AsyncSock         ] [193.206.93.51:24581 #0.0] Socket error encountered: [ERROR] Socket error
+[2016-05-06 11:12:53.963489 +0200][Error  ][XRootD            ] [193.206.93.51:24581] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1427F481-1B79-E511-B8EB-0025905B8582.root?org.dcache.uuid=24d1e043-b793-43a6-bcc3-43f1555bb507&tried=193.206.93.51,193.206.93.51, mode: 0660, flags: kXR_open_read ): [ERROR] Socket error.
+[2016-05-06 11:12:54.312203 +0200][Error  ][AsyncSock         ] [193.206.93.51:24581 #0.0] Socket error encountered: [ERROR] Socket error
+[2016-05-06 11:12:54.312322 +0200][Error  ][XRootD            ] [193.206.93.51:24581] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1427F481-1B79-E511-B8EB-0025905B8582.root?org.dcache.uuid=ecbcfa54-c469-4c60-80ef-41ccd9523ec1&tried=193.206.93.51,193.206.93.51,193.206.93.51, mode: 0660, flags: kXR_open_read ): [ERROR] Socket error.
+%MSG-w XrdAdaptorInternal:  (NoModuleName) 06-May-2016 11:12:54 CEST pre-events
+XrdRequestManager::handle(name='root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1427F481-1B79-E511-B8EB-0025905B8582.root) failure when reading from 193.206.93.51:24581 (unknown site); failed with error '[FATAL] Redirect limit has been reached' (errno=0, code=306).
+%MSG
+%MSG-w XrdAdaptorInternal:  (NoModuleName) 06-May-2016 11:12:54 CEST pre-events
+Request failure when reading from 193.206.93.51:24581 (unknown site)
+%MSG
+%MSG-w XrdAdaptor:  (NoModuleName) 06-May-2016 11:12:54 CEST pre-events
+Data is now served from fnal.gov instead of previous lnl.infn.it, fnal.gov
+%MSG
+%MSG-w XrdAdaptor:  (NoModuleName) 06-May-2016 11:13:01 CEST pre-events
+Data is now served from fnal.gov, lnl.infn.it instead of previous fnal.gov
+%MSG
+06-May-2016 11:13:01 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1427F481-1B79-E511-B8EB-0025905B8582.root
+06-May-2016 11:13:01 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/144BEA91-0A79-E511-9F29-0025905A6084.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:13:02 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:13:03 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/144BEA91-0A79-E511-9F29-0025905A6084.root
+06-May-2016 11:13:33 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/144BEA91-0A79-E511-9F29-0025905A6084.root
+06-May-2016 11:13:33 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1476CD79-3279-E511-9987-0025905A60B0.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:13:33 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:13:34 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1476CD79-3279-E511-9987-0025905A60B0.root
+06-May-2016 11:13:39 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/1476CD79-3279-E511-9987-0025905A60B0.root
+06-May-2016 11:13:39 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/14CDD315-A279-E511-8DA2-0025905A6068.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:13:40 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:13:40 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/14CDD315-A279-E511-8DA2-0025905A6068.root
+%MSG-e RunLumiMerging:  source 06-May-2016 11:13:44 CEST PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+Begin processing the 6001st record. Run 251721, Event 280010106, LumiSection 210 at 06-May-2016 11:14:12.354 CEST
+Begin processing the 8001st record. Run 251721, Event 279542329, LumiSection 210 at 06-May-2016 11:16:12.344 CEST
+%MSG-w XrdAdaptor:  (NoModuleName) 06-May-2016 11:18:16 CEST pre-events
+Data is now served from lnl.infn.it, fnal.gov instead of previous lnl.infn.it
+%MSG
+Number of events written in the tree: 10000
+Begin processing the 10001st record. Run 251721, Event 280865872, LumiSection 210 at 06-May-2016 11:18:31.518 CEST
+Begin processing the 12001st record. Run 251721, Event 284662241, LumiSection 213 at 06-May-2016 11:20:04.831 CEST
+Begin processing the 14001st record. Run 251721, Event 284999679, LumiSection 213 at 06-May-2016 11:21:33.377 CEST
+Begin processing the 16001st record. Run 251721, Event 284912144, LumiSection 213 at 06-May-2016 11:23:17.095 CEST
+06-May-2016 11:23:44 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/14CDD315-A279-E511-8DA2-0025905A6068.root
+06-May-2016 11:23:44 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/167F3703-8E79-E511-9D9E-0025905A60EE.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:23:46 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:23:48 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/167F3703-8E79-E511-9D9E-0025905A60EE.root
+%MSG-w XrdAdaptor:  (NoModuleName) 06-May-2016 11:23:59 CEST pre-events
+Data is now served from lnl.infn.it, fnal.gov instead of previous lnl.infn.it
+%MSG
+[2016-05-06 11:26:54.422677 +0200][Error  ][XRootD            ] [193.206.93.51:21931] Handling error while processing kXR_readv (handle: 0x00000000, chunks: 416, total size: 197781): [ERROR] Socket error.
+[2016-05-06 11:26:54.422763 +0200][Error  ][XRootD            ] [193.206.93.51:21931] Unable to get the response to request kXR_readv (handle: 0x00000000, chunks: 416, total size: 197781)
+[2016-05-06 11:26:54.763249 +0200][Error  ][AsyncSock         ] [193.206.93.51:21931 #0.0] Socket error encountered: [ERROR] Socket error
+[2016-05-06 11:26:54.763382 +0200][Error  ][XRootD            ] [193.206.93.51:21931] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/167F3703-8E79-E511-9D9E-0025905A60EE.root?org.dcache.uuid=35075642-5081-4814-9467-8c3d069882a5, mode: 0660, flags: kXR_open_read ): [ERROR] Socket error.
+[2016-05-06 11:26:55.124719 +0200][Error  ][AsyncSock         ] [193.206.93.51:21931 #0.0] Socket error encountered: [ERROR] Socket error
+[2016-05-06 11:26:55.124858 +0200][Error  ][XRootD            ] [193.206.93.51:21931] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/167F3703-8E79-E511-9D9E-0025905A60EE.root?org.dcache.uuid=2ea1be1e-1992-4dd0-ad9b-7abefb34c4a4&tried=193.206.93.51, mode: 0660, flags: kXR_open_read ): [ERROR] Socket error.
+[2016-05-06 11:26:55.480891 +0200][Error  ][AsyncSock         ] [193.206.93.51:21931 #0.0] Socket error encountered: [ERROR] Socket error
+[2016-05-06 11:26:55.481024 +0200][Error  ][XRootD            ] [193.206.93.51:21931] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/167F3703-8E79-E511-9D9E-0025905A60EE.root?org.dcache.uuid=5ca8fa5e-1585-4039-a63d-ec0d5c51562d&tried=193.206.93.51,193.206.93.51, mode: 0660, flags: kXR_open_read ): [ERROR] Socket error.
+[2016-05-06 11:26:55.807239 +0200][Error  ][AsyncSock         ] [193.206.93.51:21931 #0.0] Socket error encountered: [ERROR] Socket error
+[2016-05-06 11:26:55.807377 +0200][Error  ][XRootD            ] [193.206.93.51:21931] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/167F3703-8E79-E511-9D9E-0025905A60EE.root?org.dcache.uuid=8701b024-67ea-4d6e-b9e4-2fc88ea6f7cb&tried=193.206.93.51,193.206.93.51,193.206.93.51, mode: 0660, flags: kXR_open_read ): [ERROR] Socket error.
+%MSG-w XrdAdaptorInternal:  (NoModuleName) 06-May-2016 11:26:55 CEST pre-events
+XrdRequestManager::handle(name='root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/167F3703-8E79-E511-9D9E-0025905A60EE.root) failure when reading from 193.206.93.51:21931 (unknown site); failed with error '[FATAL] Redirect limit has been reached' (errno=0, code=306).
+%MSG
+%MSG-w XrdAdaptorInternal:  (NoModuleName) 06-May-2016 11:26:55 CEST pre-events
+Request failure when reading from 193.206.93.51:21931 (unknown site)
+%MSG
+%MSG-w XrdAdaptor:  (NoModuleName) 06-May-2016 11:26:55 CEST pre-events
+Data is now served from fnal.gov instead of previous lnl.infn.it, fnal.gov
+%MSG
+06-May-2016 11:27:05 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/167F3703-8E79-E511-9D9E-0025905A60EE.root
+06-May-2016 11:27:05 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/169FF4AD-8879-E511-9C61-003048FFCB9E.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:27:05 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:27:06 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/169FF4AD-8879-E511-9C61-003048FFCB9E.root
+06-May-2016 11:27:09 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/169FF4AD-8879-E511-9C61-003048FFCB9E.root
+06-May-2016 11:27:09 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/18C645EA-0979-E511-9418-002618943932.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:27:09 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:27:10 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/18C645EA-0979-E511-9418-002618943932.root
+06-May-2016 11:27:16 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/18C645EA-0979-E511-9418-002618943932.root
+n track max = 360
+n particle max = 0
+n HF tower max = 572
+n HF rechit max = 1723
+n vertex max = 7
+Number of events written in the tree: 16649
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w (NoModuleName)                         7        7
+    2 XrdAdaptor           -w PostBeginLumi                          1        1
+    3 XrdAdaptor           -w file_open                             10       10
+    4 XrdAdaptorInternal   -w (NoModuleName)                         4        4
+    5 RunLumiMerging       -e source                                 1        1
+    6 fileAction           -s file_close                            10       10
+    7 fileAction           -s file_open                             20       20
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       pre-events       pre-events
+    2 XrdAdaptor           PostBeginLumi                     
+    3 XrdAdaptor           pre-events       BeforeEvents     PostProcessEvent
+    4 XrdAdaptorInternal   pre-events       pre-events       pre-events
+    5 RunLumiMerging       PostProcessEvent                  
+    6 fileAction           BeforeEvents     BeforeEvents     PostEndRun
+    7 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                22                  22
+Error                   1                   1
+System                 30                  30

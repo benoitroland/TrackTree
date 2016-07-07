@@ -1,0 +1,188 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+11-Jun-2016 00:08:44 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DC49C27B-2279-E511-9AF0-0025905A6132.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:08:45 CEST pre-events
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:08:46 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DC49C27B-2279-E511-9AF0-0025905A6132.root
+you are going to run on data-38T
+
+[2016-06-11 00:08:55.330503 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DC49C27B-2279-E511-9AF0-0025905A6132.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+L1 Technical Trigger L1Tech_BPTX_PreBPTX.v0 is present with bit number 16
+L1 Technical Trigger L1Tech_BPTX_minus.v0 is present with bit number 2
+L1 Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 is present with bit number 6
+L1 Technical Trigger L1Tech_BPTX_plus.v0 is present with bit number 1
+L1 Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 is present with bit number 5
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 is present with bit number 0
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus_instance1.v0 is present with bit number 4
+L1 Technical Trigger L1Tech_BPTX_plus_OR_minus.v0 is present with bit number 3
+L1 Technical Trigger L1Tech_BPTX_quiet.v0 is present with bit number 7
+L1 Technical Trigger L1Tech_CASTOR_Gap.v0 is present with bit number 56
+L1 Technical Trigger L1Tech_CASTOR_HaloMuon.v0 is present with bit number 59
+L1 Technical Trigger L1Tech_CASTOR_HighJet.v0 is present with bit number 57
+L1 Technical Trigger L1Tech_CASTOR_MediumJet.v0 is present with bit number 58
+L1 Technical Trigger L1Tech_DT_GlobalOR.v0 is present with bit number 20
+L1 Technical Trigger L1Tech_HCAL_HBHE_totalOR.v0 is present with bit number 12
+L1 Technical Trigger L1Tech_HCAL_HF_MMP_or_MPP.v1 is present with bit number 10
+L1 Technical Trigger L1Tech_HCAL_HF_coincidence_PM.v2 is present with bit number 9
+L1 Technical Trigger L1Tech_HCAL_HF_single_channel.v0 is present with bit number 8
+L1 Technical Trigger L1Tech_HCAL_HO_totalOR.v0 is present with bit number 11
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus1_Cosmics.v0 is present with bit number 27
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus2_Cosmics.v0 is present with bit number 26
+L1 Technical Trigger L1Tech_RPC_TTU_barrel_Cosmics.v0 is present with bit number 24
+L1 Technical Trigger L1Tech_RPC_TTU_pointing_Cosmics.v0 is present with bit number 25
+L1 Technical Trigger L1Tech_TOTEM_0 is present with bit number 52
+L1 Technical Trigger L1Tech_TOTEM_1 is present with bit number 53
+L1 Technical Trigger L1Tech_TOTEM_2 is present with bit number 54
+L1 Technical Trigger L1Tech_TOTEM_3 is present with bit number 55
+L1 Technical Trigger L1Tech__TTU_RB0_Cosmics.v0 is present with bit number 28
+
+element 0 contains Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 with bit number 6
+element 1 contains Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 with bit number 5
+element 2 contains Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 with bit number 0
+element 3 contains Technical Trigger L1Tech_BPTX_quiet.v0 with bit number 7
+
+HLT configuration with process name HLT is valid
+
+New trigger menu found
+HLT_ZeroBias_part0_v1 with index 421 exists in the current menu
+HLT_ZeroBias_part1_v1 with index 422 exists in the current menu
+HLT_ZeroBias_part2_v1 with index 423 exists in the current menu
+HLT_ZeroBias_part3_v1 with index 424 exists in the current menu
+HLT_ZeroBias_part4_v1 with index 425 exists in the current menu
+HLT_ZeroBias_part5_v1 with index 426 exists in the current menu
+HLT_ZeroBias_part6_v1 with index 427 exists in the current menu
+HLT_ZeroBias_part7_v1 with index 428 exists in the current menu
+HLT_L1Tech5_BPTX_PlusOnly_v1 with index 429 exists in the current menu
+HLT_L1Tech6_BPTX_MinusOnly_v1 with index 430 exists in the current menu
+HLT_L1Tech7_NoBPTX_v1 with index 431 exists in the current menu
+
+Begin processing the 1st record. Run 251721, Event 202326704, LumiSection 163 at 11-Jun-2016 00:09:15.299 CEST
+[2016-06-11 00:11:02.064407 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DC49C27B-2279-E511-9AF0-0025905A6132.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 5001st record. Run 251721, Event 202746741, LumiSection 163 at 11-Jun-2016 00:11:50.572 CEST
+11-Jun-2016 00:12:11 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DC49C27B-2279-E511-9AF0-0025905A6132.root
+11-Jun-2016 00:12:11 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DCBB406D-1379-E511-B757-0025905A6136.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:12:11 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:12:11 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DCBB406D-1379-E511-B757-0025905A6136.root
+11-Jun-2016 00:12:18 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DCBB406D-1379-E511-B757-0025905A6136.root
+11-Jun-2016 00:12:18 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E02C1723-0379-E511-BCF8-0025905A608A.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:12:18 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:12:19 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E02C1723-0379-E511-BCF8-0025905A608A.root
+11-Jun-2016 00:12:25 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E02C1723-0379-E511-BCF8-0025905A608A.root
+11-Jun-2016 00:12:25 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0598940-0A79-E511-B00E-0025905A60BC.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:12:25 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:12:25 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0598940-0A79-E511-B00E-0025905A60BC.root
+[2016-06-11 00:12:28.154782 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/DCBB406D-1379-E511-B757-0025905A6136.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+[2016-06-11 00:12:29.155304 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E02C1723-0379-E511-BCF8-0025905A608A.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+11-Jun-2016 00:12:30 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0598940-0A79-E511-B00E-0025905A60BC.root
+11-Jun-2016 00:12:30 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0640B96-3B79-E511-B93B-0025905A613C.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:12:31 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:12:31 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0640B96-3B79-E511-B93B-0025905A613C.root
+11-Jun-2016 00:12:33 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0640B96-3B79-E511-B93B-0025905A613C.root
+11-Jun-2016 00:12:33 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0ECD11B-0379-E511-91BE-002618943869.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:12:33 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:12:34 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0ECD11B-0379-E511-91BE-002618943869.root
+[2016-06-11 00:12:35.154677 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0598940-0A79-E511-B00E-0025905A60BC.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+11-Jun-2016 00:12:41 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0ECD11B-0379-E511-91BE-002618943869.root
+11-Jun-2016 00:12:41 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E243AE84-1E79-E511-BA1C-0025905B8562.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:12:41 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:12:42 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E243AE84-1E79-E511-BA1C-0025905B8562.root
+%MSG-e RunLumiMerging:  source 11-Jun-2016 00:12:45 CEST PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+[2016-06-11 00:12:46.156331 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E0ECD11B-0379-E511-91BE-002618943869.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+[2016-06-11 00:12:53.157394 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E243AE84-1E79-E511-BA1C-0025905B8562.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Number of events written in the tree: 10000
+Begin processing the 10001st record. Run 251721, Event 227922905, LumiSection 178 at 11-Jun-2016 00:14:37.009 CEST
+[2016-06-11 00:14:58.115485 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E243AE84-1E79-E511-BA1C-0025905B8562.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 15001st record. Run 251721, Event 231008691, LumiSection 180 at 11-Jun-2016 00:16:46.422 CEST
+[2016-06-11 00:17:06.093637 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E243AE84-1E79-E511-BA1C-0025905B8562.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Number of events written in the tree: 20000
+Begin processing the 20001st record. Run 251721, Event 233575849, LumiSection 182 at 11-Jun-2016 00:19:00.145 CEST
+[2016-06-11 00:19:15.105697 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E243AE84-1E79-E511-BA1C-0025905B8562.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+11-Jun-2016 00:20:10 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E243AE84-1E79-E511-BA1C-0025905B8562.root
+11-Jun-2016 00:20:10 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25AD681-1E79-E511-ADDF-0025905B860C.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:20:11 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:20:11 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25AD681-1E79-E511-ADDF-0025905B860C.root
+11-Jun-2016 00:20:14 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25AD681-1E79-E511-ADDF-0025905B860C.root
+11-Jun-2016 00:20:14 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25C32FE-8E79-E511-84A6-0025905A608C.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:20:14 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:20:15 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25C32FE-8E79-E511-84A6-0025905A608C.root
+%MSG-e RunLumiMerging:  source 11-Jun-2016 00:20:18 CEST PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+[2016-06-11 00:20:26.195383 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25C32FE-8E79-E511-84A6-0025905A608C.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 25001st record. Run 251721, Event 264773503, LumiSection 201 at 11-Jun-2016 00:21:26.908 CEST
+[2016-06-11 00:22:26.154497 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25C32FE-8E79-E511-84A6-0025905A608C.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Number of events written in the tree: 30000
+Begin processing the 30001st record. Run 251721, Event 278274183, LumiSection 209 at 11-Jun-2016 00:23:56.555 CEST
+[2016-06-11 00:24:31.132909 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25C32FE-8E79-E511-84A6-0025905A608C.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+[2016-06-11 00:26:33.176673 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25C32FE-8E79-E511-84A6-0025905A608C.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 35001st record. Run 251721, Event 293876164, LumiSection 218 at 11-Jun-2016 00:26:56.741 CEST
+[2016-06-11 00:28:41.155646 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25C32FE-8E79-E511-84A6-0025905A608C.root?tried=+1313xrootd-redic.pi.infn.it,+1213llrxrd-redir.in2p3.fr,+1313llrxrd-redir.in2p3.fr,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+11-Jun-2016 00:29:52 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E25C32FE-8E79-E511-84A6-0025905A608C.root
+11-Jun-2016 00:29:52 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E272A218-0379-E511-AE55-00261894396D.root
+%MSG-w XrdAdaptor:  file_open 11-Jun-2016 00:29:53 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+11-Jun-2016 00:29:53 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E272A218-0379-E511-AE55-00261894396D.root
+11-Jun-2016 00:30:00 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/E272A218-0379-E511-AE55-00261894396D.root
+n track max = 369
+n particle max = 0
+n HF tower max = 603
+n HF rechit max = 1723
+n vertex max = 7
+Number of events written in the tree: 39589
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                             10       10
+    2 RunLumiMerging       -e source                                 2        2
+    3 fileAction           -s file_close                            10       10
+    4 fileAction           -s file_open                             20       20
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    2 RunLumiMerging       PostProcessEvent PostProcessEvent 
+    3 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                10                  10
+Error                   2                   2
+System                 30                  30

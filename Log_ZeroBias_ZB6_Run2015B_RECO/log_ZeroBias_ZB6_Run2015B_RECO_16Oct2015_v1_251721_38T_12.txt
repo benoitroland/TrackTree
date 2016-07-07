@@ -1,0 +1,97 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+10-Jun-2016 23:45:30 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6887506E-0A79-E511-B4E3-0025905A6068.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:45:31 CEST pre-events
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+10-Jun-2016 23:45:32 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6887506E-0A79-E511-B4E3-0025905A6068.root
+you are going to run on data-38T
+
+10-Jun-2016 23:45:42 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6887506E-0A79-E511-B4E3-0025905A6068.root
+10-Jun-2016 23:45:42 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/689936A2-9C79-E511-9138-0025905A60B0.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:45:43 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+[2016-06-10 23:45:43.678866 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6887506E-0A79-E511-B4E3-0025905A6068.root?tried=+1313llrxrd-redir.in2p3.fr,+1213xrootd-redic.pi.infn.it,+1313xrootd-redic.pi.infn.it,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+10-Jun-2016 23:45:43 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/689936A2-9C79-E511-9138-0025905A60B0.root
+10-Jun-2016 23:45:56 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/689936A2-9C79-E511-9138-0025905A60B0.root
+10-Jun-2016 23:45:56 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6C033115-0379-E511-B4FA-002618943962.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:45:56 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+10-Jun-2016 23:45:56 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6C033115-0379-E511-B4FA-002618943962.root
+[2016-06-10 23:46:00.403373 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/689936A2-9C79-E511-9138-0025905A60B0.root?tried=+1313llrxrd-redir.in2p3.fr,+1213xrootd-redic.pi.infn.it,+1313xrootd-redic.pi.infn.it,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+10-Jun-2016 23:46:02 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6C033115-0379-E511-B4FA-002618943962.root
+10-Jun-2016 23:46:02 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6CD65BEB-4779-E511-9A88-002618943916.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:46:02 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+10-Jun-2016 23:46:03 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6CD65BEB-4779-E511-9A88-002618943916.root
+[2016-06-10 23:46:07.404296 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6C033115-0379-E511-B4FA-002618943962.root?tried=+1313llrxrd-redir.in2p3.fr,+1213xrootd-redic.pi.infn.it,+1313xrootd-redic.pi.infn.it,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+10-Jun-2016 23:46:08 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6CD65BEB-4779-E511-9A88-002618943916.root
+10-Jun-2016 23:46:08 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6CDA34B4-0179-E511-9A9D-00261894384F.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:46:09 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+10-Jun-2016 23:46:09 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6CDA34B4-0179-E511-9A9D-00261894384F.root
+10-Jun-2016 23:46:16 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6CDA34B4-0179-E511-9A9D-00261894384F.root
+10-Jun-2016 23:46:16 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E2CC184-1E79-E511-A2CE-0025905B85EE.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:46:16 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+10-Jun-2016 23:46:17 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E2CC184-1E79-E511-A2CE-0025905B85EE.root
+[2016-06-10 23:46:20.407628 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6CDA34B4-0179-E511-9A9D-00261894384F.root?tried=+1313llrxrd-redir.in2p3.fr,+1213xrootd-redic.pi.infn.it,+1313xrootd-redic.pi.infn.it,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+10-Jun-2016 23:46:25 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E2CC184-1E79-E511-A2CE-0025905B85EE.root
+10-Jun-2016 23:46:25 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E42D8B7-1379-E511-A11A-0026189438B0.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:46:25 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+10-Jun-2016 23:46:26 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E42D8B7-1379-E511-A11A-0026189438B0.root
+[2016-06-10 23:46:29.405085 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E2CC184-1E79-E511-A2CE-0025905B85EE.root?tried=+1313llrxrd-redir.in2p3.fr,+1213xrootd-redic.pi.infn.it,+1313xrootd-redic.pi.infn.it,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+10-Jun-2016 23:46:42 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E42D8B7-1379-E511-A11A-0026189438B0.root
+10-Jun-2016 23:46:42 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E5BF226-0379-E511-86B1-003048FFCB84.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:46:43 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+10-Jun-2016 23:46:43 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E5BF226-0379-E511-86B1-003048FFCB84.root
+[2016-06-10 23:46:47.407755 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E42D8B7-1379-E511-A11A-0026189438B0.root?tried=+1313llrxrd-redir.in2p3.fr,+1213xrootd-redic.pi.infn.it,+1313xrootd-redic.pi.infn.it,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+10-Jun-2016 23:46:49 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E5BF226-0379-E511-86B1-003048FFCB84.root
+10-Jun-2016 23:46:49 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/70222278-BD79-E511-AE88-0025905A6080.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:46:49 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+10-Jun-2016 23:46:49 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/70222278-BD79-E511-AE88-0025905A6080.root
+10-Jun-2016 23:46:53 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/70222278-BD79-E511-AE88-0025905A6080.root
+10-Jun-2016 23:46:53 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/70222A70-2779-E511-9C33-0025905AA9F0.root
+%MSG-w XrdAdaptor:  file_open 10-Jun-2016 23:46:54 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+[2016-06-10 23:46:54.407734 +0200][Error  ][XRootD            ] [xrootd-cms.infn.it:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/6E5BF226-0379-E511-86B1-003048FFCB84.root?tried=+1313llrxrd-redir.in2p3.fr,+1213xrootd-redic.pi.infn.it,+1313xrootd-redic.pi.infn.it,t2-cmsxrd.lnl.infn.it, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+10-Jun-2016 23:46:54 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/70222A70-2779-E511-9C33-0025905AA9F0.root
+10-Jun-2016 23:46:58 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias6/RECO/16Oct2015-v1/80000/70222A70-2779-E511-9C33-0025905AA9F0.root
+n track max = 0
+n particle max = 0
+n HF tower max = 0
+n HF rechit max = 0
+n vertex max = 0
+Number of events written in the tree: 0
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                             10       10
+    2 fileAction           -s file_close                            10       10
+    3 fileAction           -s file_open                             20       20
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       BeforeEvents     BeforeEvents
+    2 fileAction           BeforeEvents     BeforeEvents     BeforeEvents
+    3 fileAction           pre-events       pre-events       BeforeEvents
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                10                  10
+System                 30                  30

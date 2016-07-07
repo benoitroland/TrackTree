@@ -1,0 +1,100 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+09-May-2016 15:51:31 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/54C36DC6-9979-E511-BAED-0025905B8598.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:51:32 CEST pre-events
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:51:34 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/54C36DC6-9979-E511-BAED-0025905B8598.root
+you are going to run on data-38T
+
+09-May-2016 15:51:48 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/54C36DC6-9979-E511-BAED-0025905B8598.root
+09-May-2016 15:51:48 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/56C85F4A-1D79-E511-8523-0025905A48BC.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:51:48 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:51:49 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/56C85F4A-1D79-E511-8523-0025905A48BC.root
+09-May-2016 15:52:14 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/56C85F4A-1D79-E511-8523-0025905A48BC.root
+09-May-2016 15:52:14 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/56D66309-8D79-E511-A68F-00261894389A.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:52:15 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:52:15 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/56D66309-8D79-E511-A68F-00261894389A.root
+09-May-2016 15:52:26 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/56D66309-8D79-E511-A68F-00261894389A.root
+09-May-2016 15:52:26 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/58A3E16D-1379-E511-B9C5-0025905B85EE.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:52:27 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:52:27 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/58A3E16D-1379-E511-B9C5-0025905B85EE.root
+09-May-2016 15:52:36 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/58A3E16D-1379-E511-B9C5-0025905B85EE.root
+09-May-2016 15:52:36 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/5A68F77A-5179-E511-B420-0025905A60E0.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:52:36 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:52:36 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/5A68F77A-5179-E511-B420-0025905A60E0.root
+09-May-2016 15:52:51 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/5A68F77A-5179-E511-B420-0025905A60E0.root
+09-May-2016 15:52:51 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/5A73075D-8B79-E511-85C5-0025905B8590.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:52:52 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:52:53 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/5A73075D-8B79-E511-85C5-0025905B8590.root
+%MSG-w XrdAdaptor:  (NoModuleName) 09-May-2016 15:53:05 CEST pre-events
+Data is now served from lnl.infn.it, fnal.gov instead of previous lnl.infn.it
+%MSG
+%MSG-w XrdAdaptor:  AfterFile 09-May-2016 15:53:52 CEST BeforeEvents
+Data is now served from fnal.gov instead of previous lnl.infn.it, fnal.gov
+%MSG
+09-May-2016 15:53:52 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/5A73075D-8B79-E511-85C5-0025905B8590.root
+09-May-2016 15:53:52 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/60900B77-8B79-E511-95A0-0025905A609A.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:53:53 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:53:54 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/60900B77-8B79-E511-95A0-0025905A609A.root
+09-May-2016 15:54:13 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/60900B77-8B79-E511-95A0-0025905A609A.root
+09-May-2016 15:54:13 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/609F67CB-9979-E511-8124-002590593878.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:54:13 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:54:13 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/609F67CB-9979-E511-8124-002590593878.root
+09-May-2016 15:54:20 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/609F67CB-9979-E511-8124-002590593878.root
+09-May-2016 15:54:20 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/64B056DF-1D79-E511-8452-0025905B859E.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:54:21 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:54:21 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/64B056DF-1D79-E511-8452-0025905B859E.root
+09-May-2016 15:54:40 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/64B056DF-1D79-E511-8452-0025905B859E.root
+09-May-2016 15:54:40 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/6860D052-B379-E511-A8D1-0025905B855C.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 15:54:40 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 15:54:41 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/6860D052-B379-E511-A8D1-0025905B855C.root
+09-May-2016 15:54:43 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/6860D052-B379-E511-A8D1-0025905B855C.root
+n track max = 0
+n particle max = 0
+n HF tower max = 0
+n HF rechit max = 0
+n vertex max = 0
+Number of events written in the tree: 0
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w (NoModuleName)                         1        1
+    2 XrdAdaptor           -w AfterFile                              1        1
+    3 XrdAdaptor           -w file_open                             10       10
+    4 fileAction           -s file_close                            10       10
+    5 fileAction           -s file_open                             20       20
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events                        
+    2 XrdAdaptor           BeforeEvents                      
+    3 XrdAdaptor           pre-events       BeforeEvents     BeforeEvents
+    4 fileAction           BeforeEvents     BeforeEvents     BeforeEvents
+    5 fileAction           pre-events       pre-events       BeforeEvents
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                12                  12
+System                 30                  30

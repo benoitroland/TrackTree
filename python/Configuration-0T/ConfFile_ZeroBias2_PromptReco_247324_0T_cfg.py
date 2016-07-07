@@ -1,0 +1,143 @@
+import FWCore.ParameterSet.Config as cms
+
+process = cms.Process("TrackAnalysis")
+
+process.load("FWCore.MessageService.MessageLogger_cfi")
+process.MessageLogger.cerr.FwkReport.reportEvery = 1000
+process.maxEvents = cms.untracked.PSet(input = cms.untracked.int32(500000))
+
+process.source = cms.Source("PoolSource",
+                            fileNames = cms.untracked.vstring(
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/0007A1E8-BA0E-E511-9F35-02163E014150.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/00351EF4-AE0E-E511-B687-02163E014622.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/003C9898-BB0E-E511-8FE7-02163E014613.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/00936C4D-B80E-E511-BC3B-02163E0143E0.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/02329411-BD0E-E511-B235-02163E014592.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/0248CB1E-EA0E-E511-81E0-02163E0145E7.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/06A52607-B90E-E511-96C8-02163E0144A1.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/0AEC4C88-BC0E-E511-94E1-02163E01456E.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/0EAD32F4-B40E-E511-8D3C-02163E014607.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/140809B4-AE0E-E511-9AC4-02163E01466A.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/16DF5E29-B00E-E511-945A-02163E0141CD.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/1C517D56-C40E-E511-83E4-02163E014529.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/1C6CB419-AF0E-E511-BCF4-02163E014763.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/1C70545E-DA0E-E511-BECF-02163E014642.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/1CFFFBF3-AE0E-E511-A2E3-02163E0138F6.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/20B85368-B70E-E511-BAC2-02163E01456E.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/22630968-C30E-E511-9285-02163E014458.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/24395C7B-C60E-E511-80CD-02163E014172.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/24F69118-AF0E-E511-BCC1-02163E0142F3.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/2803161A-AF0E-E511-A2F3-02163E014642.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/2A9067C6-B80E-E511-B89B-02163E011DC2.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/2C6E39BF-B80E-E511-96EB-02163E01412D.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/30945B65-B70E-E511-A9FF-02163E0136CC.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/30A0A5BF-BB0E-E511-969C-02163E013454.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/30A59A96-B80E-E511-BB1B-02163E014649.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/4057F63E-B10E-E511-9EAA-02163E014379.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/40F98F74-AE0E-E511-B22B-02163E0119A4.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/44FBD550-AE0E-E511-8E32-02163E014166.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/461B5AA0-D60E-E511-B3DE-02163E014529.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/4627C7F2-B50E-E511-BD09-02163E01475D.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/48FE4619-AF0E-E511-9BC6-02163E013642.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/4A991CA6-B90E-E511-8571-02163E01382C.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/4AF1E58A-AE0E-E511-927F-02163E011B28.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/4CF0FA27-B00E-E511-82F0-02163E0124D8.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/50905FDB-AD0E-E511-BD8D-02163E011FBE.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/5225C4AA-B00E-E511-A79B-02163E014172.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/5455E42B-B00E-E511-9763-02163E0143B6.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/546752F8-AE0E-E511-BD82-02163E011C8A.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/56DB7D84-B80E-E511-BF6C-02163E0136CC.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/581DC879-BC0E-E511-B9FB-02163E011DC2.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/584EA074-AE0E-E511-ADFD-02163E0119A4.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/64F7C2A8-BB0E-E511-BE6C-02163E013518.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/68E0CBDC-AF0E-E511-B637-02163E01447D.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/6C4C8F61-C50E-E511-A30D-02163E0145BA.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/6E844276-B90E-E511-A2E0-02163E01412D.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/6EC1B30A-AE0E-E511-BE85-02163E0118CD.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/744FA9CE-BA0E-E511-B0E6-02163E01392A.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/748070D2-AF0E-E511-8406-02163E014212.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/74AFF1EF-AF0E-E511-BE88-02163E014171.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/76ABCEED-B30E-E511-8CB9-02163E01476A.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/7AA0A320-CC0E-E511-8BC3-02163E012551.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/82348001-B90E-E511-8865-02163E013689.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/88490472-AE0E-E511-B267-02163E014359.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/8A30FF0E-BA0E-E511-A5A2-02163E0134D5.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/8CC5D44C-BF0E-E511-9C12-02163E013493.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/8E613A6E-B30E-E511-8D7D-02163E0136CC.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/9271A27A-B20E-E511-B58C-02163E0135B7.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/929D36D1-AF0E-E511-9780-02163E012655.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/98F44584-CC0E-E511-BB0C-02163E014150.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/9EE5FE23-AF0E-E511-963F-02163E0139DE.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/A0F436C9-B60E-E511-8F0A-02163E013502.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/A2A72D35-B80E-E511-A84C-02163E01466A.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/A49E1BF1-B00E-E511-B031-02163E013644.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/A4F8A985-B10E-E511-A9B6-02163E014592.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/A69D11A2-B80E-E511-9072-02163E014459.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/A806424B-BA0E-E511-A947-02163E01429D.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/A8967227-AF0E-E511-A40F-02163E01444C.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/AC277C1F-AF0E-E511-9A68-02163E0139D9.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/AC43ED19-AF0E-E511-92BB-02163E014745.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/AC8A8FA4-AE0E-E511-A434-02163E0133C7.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/B0FEEC4E-C00E-E511-9DD5-02163E0142F3.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/B21D721A-B80E-E511-AD12-02163E013835.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/B650BD6D-B00E-E511-92A2-02163E013689.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/BA1A90D2-AF0E-E511-B41A-02163E014212.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/BC742775-B00E-E511-AFBA-02163E0139CA.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/BEDAF27B-B20E-E511-A40F-02163E014150.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/C0162D07-B90E-E511-A9DE-02163E014592.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/C0457CC0-B80E-E511-9EE9-02163E0142F3.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/C4557DF6-AE0E-E511-B274-02163E012ACF.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/C6213D84-D40E-E511-A854-02163E0138F3.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/C6899576-AE0E-E511-9FA5-02163E014150.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/C8B678FF-B80E-E511-8D76-02163E013979.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/CAF1188D-B70E-E511-A481-02163E014303.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/CC510E0D-D10E-E511-8CCD-02163E011B28.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/CCFDCE53-C80E-E511-8D18-02163E013454.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/D01692FC-E40E-E511-A2DF-02163E0125CE.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/D0C296D1-AF0E-E511-89E6-02163E0135D4.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/D2E945AD-B00E-E511-994A-02163E014649.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/D8FE9945-AE0E-E511-ACF3-02163E0142B7.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/E0D1365D-B00E-E511-95DF-02163E0145E7.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/E6075C8B-C10E-E511-96AE-02163E0145D4.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/E63F608E-AF0E-E511-BCE5-02163E01471D.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/EC3D6772-AC0E-E511-900B-02163E01475D.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/EE0C3819-AF0E-E511-A7BF-02163E0135B7.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/F0927D9D-B70E-E511-9FAC-02163E0136B6.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/F412DCF3-CE0E-E511-97C7-02163E01392A.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/F4894632-B90E-E511-A4A5-02163E0125CE.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/F4E28B5A-B60E-E511-BCCE-02163E0138BE.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/FE5AC4DC-C40E-E511-9CD5-02163E014382.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/FEA2FF83-B80E-E511-B122-02163E013642.root',
+        'root://xrootd-cms.infn.it//store/data/Run2015A/ZeroBias2/RECO/PromptReco-v1/000/247/324/00000/FEC565CA-B10E-E511-AE99-02163E0135D4.root')
+                            )
+
+process.load('Configuration.StandardSequences.Services_cff')
+process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
+process.GlobalTag.globaltag = 'GR_P_V56::All'
+
+process.analysis = cms.EDAnalyzer('TrackTree',
+                                  data_type = cms.string('data-0T'), 
+
+                                  L1GT_label = cms.InputTag('gtDigis'),
+                                  L1TT_requested = cms.vstring(''),
+                                  
+                                  HLT_label = cms.InputTag('TriggerResults','','HLT'),
+                                  HLT_requested = cms.vstring('HLT_ZeroBias_part0_v1','HLT_ZeroBias_part1_v1','HLT_ZeroBias_part2_v1',
+                                                              'HLT_ZeroBias_part3_v1','HLT_ZeroBias_part4_v1','HLT_ZeroBias_part5_v1',
+                                                              'HLT_ZeroBias_part6_v1','HLT_ZeroBias_part7_v1',                                                              
+                                                              'HLT_L1Tech5_BPTX_PlusOnly_v1','HLT_L1Tech6_BPTX_MinusOnly_v1','HLT_L1Tech7_NoBPTX_v1'),
+                                  process_label = cms.string('HLT'),
+                                  
+                                  generaltrack_label = cms.InputTag('generalTracks','','RECO'),
+                                  calotower_label = cms.InputTag('towerMaker','', 'RECO'),
+                                  genparticle_label = cms.InputTag('genParticles','','HLT'),
+                                  recovertex_label = cms.InputTag('offlinePrimaryVertices','','RECO'),
+                                  beamspot_label = cms.InputTag('offlineBeamSpot','','RECO')
+                                  )
+
+
+process.TFileService = cms.Service("TFileService",
+             fileName = cms.string('/nfs/dust/cms/user/roland/TrackAnalysis/OutputTree/data/data_ZeroBias2_PromptReco_GR_P_V56_247324.root')
+)
+
+process.p = cms.Path(process.analysis)

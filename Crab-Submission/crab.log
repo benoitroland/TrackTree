@@ -1,0 +1,90 @@
+DEBUG 2015-10-14 17:30:48,862: 	 Executing command: 'status'
+DEBUG 2015-10-14 17:30:48,862: 	 Found CRAB cache file /afs/desy.de/user/r/roland/.crab3
+DEBUG 2015-10-14 17:30:48,868: 	 Checking credentials
+DEBUG 2015-10-14 17:30:48,868: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-14 17:30:48,869: 	 Getting proxy life time left
+DEBUG 2015-10-14 17:30:49,271: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86224
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:30:49,674: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86224
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:30:49,674: 	 Proxy valid for 23:57:04 hours
+ERROR 2015-10-14 17:30:49,674: 	 Cannot find .requestcache file in CRAB project directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+ERROR 2015-10-14 17:30:49,674: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/bin/crab", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/lib/python2.6/site-packages/CRABClient/Commands/SubCommand.py", line 317, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/lib/python2.6/site-packages/CRABClient/Commands/SubCommand.py", line 427, in loadLocalCache
+    self.cachedinfo, self.logfile = loadCache(self.requestarea, self.logger)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/lib/python2.6/site-packages/CRABClient/ClientUtilities.py", line 445, in loadCache
+    raise CachefileNotFoundException(msg)
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+ERROR 2015-10-14 17:30:49,677: 	 Unhandled Exception!
+ERROR 2015-10-14 17:30:49,678: 	 'NoneType' object has no attribute 'terminate'
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/bin/crab", line 213, in <module>
+    client.cmd.terminate( exitcode )
+AttributeError: 'NoneType' object has no attribute 'terminate'
+ERROR 2015-10-14 17:30:49,678: 	 ERROR: AttributeError: 'NoneType' object has no attribute 'terminate'
+ERROR 2015-10-14 17:30:49,678: 	 
+	Please email hn-cms-computing-tools@cern.ch for support with the crab.log file or crab.log URL.
+ERROR 2015-10-14 17:30:49,678: 	 	Client Version: 3.3.1510
+ERROR 2015-10-14 17:30:49,678: 	 	Please use 'crab uploadlog' to upload the log file /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/crab.log to the CRAB cache.
+DEBUG 2015-10-14 17:31:09,120: 	 Executing command: 'status'
+DEBUG 2015-10-14 17:31:09,120: 	 Found CRAB cache file /afs/desy.de/user/r/roland/.crab3
+DEBUG 2015-10-14 17:31:09,126: 	 Checking credentials
+DEBUG 2015-10-14 17:31:09,126: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-14 17:31:09,126: 	 Getting proxy life time left
+DEBUG 2015-10-14 17:31:09,528: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86204
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:31:09,931: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86204
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:31:09,931: 	 Proxy valid for 23:56:44 hours
+ERROR 2015-10-14 17:31:09,931: 	 Cannot find .requestcache file in CRAB project directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+ERROR 2015-10-14 17:31:09,932: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/bin/crab", line 159, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/bin/crab", line 145, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/lib/python2.6/site-packages/CRABClient/Commands/SubCommand.py", line 317, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/lib/python2.6/site-packages/CRABClient/Commands/SubCommand.py", line 427, in loadLocalCache
+    self.cachedinfo, self.logfile = loadCache(self.requestarea, self.logger)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/lib/python2.6/site-packages/CRABClient/ClientUtilities.py", line 445, in loadCache
+    raise CachefileNotFoundException(msg)
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+ERROR 2015-10-14 17:31:09,934: 	 Unhandled Exception!
+ERROR 2015-10-14 17:31:09,934: 	 'NoneType' object has no attribute 'terminate'
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc481/cms/crabclient/3.3.1510/bin/crab", line 213, in <module>
+    client.cmd.terminate( exitcode )
+AttributeError: 'NoneType' object has no attribute 'terminate'
+ERROR 2015-10-14 17:31:09,934: 	 ERROR: AttributeError: 'NoneType' object has no attribute 'terminate'
+ERROR 2015-10-14 17:31:09,934: 	 
+	Please email hn-cms-computing-tools@cern.ch for support with the crab.log file or crab.log URL.
+ERROR 2015-10-14 17:31:09,934: 	 	Client Version: 3.3.1510
+ERROR 2015-10-14 17:31:09,934: 	 	Please use 'crab uploadlog' to upload the log file /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/crab.log to the CRAB cache.

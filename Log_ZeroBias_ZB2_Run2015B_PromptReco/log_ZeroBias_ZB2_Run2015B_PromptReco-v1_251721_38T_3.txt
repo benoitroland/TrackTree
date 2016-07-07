@@ -1,0 +1,218 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+04-Feb-2016 17:13:15 CET  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/30E412C1-452C-E511-9A8E-02163E0133F9.root
+%MSG-w XrdAdaptor:  file_open 04-Feb-2016 17:13:16 CET pre-events
+Data is served from cern.ch instead of original site infn.it
+%MSG
+04-Feb-2016 17:13:17 CET  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/30E412C1-452C-E511-9A8E-02163E0133F9.root
+you are going to run on data-PromptReco-38T
+
+L1 Technical Trigger L1Tech_BPTX_PreBPTX.v0 is present with bit number 16
+L1 Technical Trigger L1Tech_BPTX_minus.v0 is present with bit number 2
+L1 Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 is present with bit number 6
+L1 Technical Trigger L1Tech_BPTX_plus.v0 is present with bit number 1
+L1 Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 is present with bit number 5
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 is present with bit number 0
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus_instance1.v0 is present with bit number 4
+L1 Technical Trigger L1Tech_BPTX_plus_OR_minus.v0 is present with bit number 3
+L1 Technical Trigger L1Tech_BPTX_quiet.v0 is present with bit number 7
+L1 Technical Trigger L1Tech_CASTOR_Gap.v0 is present with bit number 56
+L1 Technical Trigger L1Tech_CASTOR_HaloMuon.v0 is present with bit number 59
+L1 Technical Trigger L1Tech_CASTOR_HighJet.v0 is present with bit number 57
+L1 Technical Trigger L1Tech_CASTOR_MediumJet.v0 is present with bit number 58
+L1 Technical Trigger L1Tech_DT_GlobalOR.v0 is present with bit number 20
+L1 Technical Trigger L1Tech_HCAL_HBHE_totalOR.v0 is present with bit number 12
+L1 Technical Trigger L1Tech_HCAL_HF_MMP_or_MPP.v1 is present with bit number 10
+L1 Technical Trigger L1Tech_HCAL_HF_coincidence_PM.v2 is present with bit number 9
+L1 Technical Trigger L1Tech_HCAL_HF_single_channel.v0 is present with bit number 8
+L1 Technical Trigger L1Tech_HCAL_HO_totalOR.v0 is present with bit number 11
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus1_Cosmics.v0 is present with bit number 27
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus2_Cosmics.v0 is present with bit number 26
+L1 Technical Trigger L1Tech_RPC_TTU_barrel_Cosmics.v0 is present with bit number 24
+L1 Technical Trigger L1Tech_RPC_TTU_pointing_Cosmics.v0 is present with bit number 25
+L1 Technical Trigger L1Tech_TOTEM_0 is present with bit number 52
+L1 Technical Trigger L1Tech_TOTEM_1 is present with bit number 53
+L1 Technical Trigger L1Tech_TOTEM_2 is present with bit number 54
+L1 Technical Trigger L1Tech_TOTEM_3 is present with bit number 55
+L1 Technical Trigger L1Tech__TTU_RB0_Cosmics.v0 is present with bit number 28
+
+element 0 contains Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 with bit number 6
+element 1 contains Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 with bit number 5
+element 2 contains Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 with bit number 0
+element 3 contains Technical Trigger L1Tech_BPTX_quiet.v0 with bit number 7
+
+HLT configuration with process name HLT is valid
+
+New trigger menu found
+HLT_ZeroBias_part0_v1 with index 421 exists in the current menu
+HLT_ZeroBias_part1_v1 with index 422 exists in the current menu
+HLT_ZeroBias_part2_v1 with index 423 exists in the current menu
+HLT_ZeroBias_part3_v1 with index 424 exists in the current menu
+HLT_ZeroBias_part4_v1 with index 425 exists in the current menu
+HLT_ZeroBias_part5_v1 with index 426 exists in the current menu
+HLT_ZeroBias_part6_v1 with index 427 exists in the current menu
+HLT_ZeroBias_part7_v1 with index 428 exists in the current menu
+HLT_L1Tech5_BPTX_PlusOnly_v1 with index 429 exists in the current menu
+HLT_L1Tech6_BPTX_MinusOnly_v1 with index 430 exists in the current menu
+HLT_L1Tech7_NoBPTX_v1 with index 431 exists in the current menu
+
+Begin processing the 1st record. Run 251721, Event 99126970, LumiSection 97 at 04-Feb-2016 17:13:46.768 CET
+Begin processing the 2001st record. Run 251721, Event 98484363, LumiSection 97 at 04-Feb-2016 17:14:53.199 CET
+Begin processing the 4001st record. Run 251721, Event 98966872, LumiSection 97 at 04-Feb-2016 17:15:40.934 CET
+[2016-02-04 17:15:43.067975 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/30E412C1-452C-E511-9A8E-02163E0133F9.root?tried=p05798818q44165.cern.ch,p05614923d48978.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w OutOfBounds:  TrackRefitter:TrackRefitter 04-Feb-2016 17:15:53 CET  Run: 251721 Event: 99590505
+Prob Q outside the bounds of the quality word. Defaulting to Prob=0. Prob = 1 QualityWord = 0
+%MSG
+Begin processing the 6001st record. Run 251721, Event 111091955, LumiSection 105 at 04-Feb-2016 17:16:30.332 CET
+Begin processing the 8001st record. Run 251721, Event 112275236, LumiSection 105 at 04-Feb-2016 17:17:19.592 CET
+[2016-02-04 17:17:43.187150 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/30E412C1-452C-E511-9A8E-02163E0133F9.root?tried=p05798818q44165.cern.ch,p05614923d48978.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Number of events written in the tree: 10000
+Begin processing the 10001st record. Run 251721, Event 111357189, LumiSection 105 at 04-Feb-2016 17:18:07.701 CET
+Begin processing the 12001st record. Run 251721, Event 140652066, LumiSection 124 at 04-Feb-2016 17:18:55.028 CET
+Begin processing the 14001st record. Run 251721, Event 141410967, LumiSection 124 at 04-Feb-2016 17:19:39.168 CET
+[2016-02-04 17:19:46.845709 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/30E412C1-452C-E511-9A8E-02163E0133F9.root?tried=p05798818q44165.cern.ch,p05614923d48978.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 16001st record. Run 251721, Event 140801390, LumiSection 124 at 04-Feb-2016 17:20:24.104 CET
+04-Feb-2016 17:20:47 CET  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/30E412C1-452C-E511-9A8E-02163E0133F9.root
+04-Feb-2016 17:20:47 CET  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4882CEC4-482C-E511-8B78-02163E0139B0.root
+%MSG-w XrdAdaptor:  file_open 04-Feb-2016 17:20:48 CET PostProcessEvent
+Data is served from cern.ch instead of original site infn.it
+%MSG
+04-Feb-2016 17:20:48 CET  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4882CEC4-482C-E511-8B78-02163E0139B0.root
+%MSG-e RunLumiMerging:  source 04-Feb-2016 17:20:51 CET PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+Begin processing the 18001st record. Run 251721, Event 277123050, LumiSection 208 at 04-Feb-2016 17:21:20.502 CET
+Number of events written in the tree: 20000
+Begin processing the 20001st record. Run 251721, Event 277592833, LumiSection 208 at 04-Feb-2016 17:22:18.745 CET
+Begin processing the 22001st record. Run 251721, Event 276687533, LumiSection 208 at 04-Feb-2016 17:23:17.053 CET
+Begin processing the 24001st record. Run 251721, Event 291437642, LumiSection 217 at 04-Feb-2016 17:24:17.389 CET
+Begin processing the 26001st record. Run 251721, Event 291852171, LumiSection 217 at 04-Feb-2016 17:25:14.940 CET
+Begin processing the 28001st record. Run 251721, Event 291258024, LumiSection 217 at 04-Feb-2016 17:26:12.240 CET
+04-Feb-2016 17:26:19 CET  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4882CEC4-482C-E511-8B78-02163E0139B0.root
+04-Feb-2016 17:26:19 CET  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4A06D1EE-452C-E511-8ACA-02163E012AE3.root
+%MSG-w XrdAdaptor:  file_open 04-Feb-2016 17:26:19 CET PostProcessEvent
+Data is served from cern.ch instead of original site infn.it
+%MSG
+04-Feb-2016 17:26:20 CET  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4A06D1EE-452C-E511-8ACA-02163E012AE3.root
+%MSG-e RunLumiMerging:  source 04-Feb-2016 17:26:23 CET PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+Number of events written in the tree: 30000
+Begin processing the 30001st record. Run 251721, Event 216799686, LumiSection 172 at 04-Feb-2016 17:27:13.197 CET
+Begin processing the 32001st record. Run 251721, Event 217914136, LumiSection 172 at 04-Feb-2016 17:28:10.400 CET
+Begin processing the 34001st record. Run 251721, Event 307329974, LumiSection 226 at 04-Feb-2016 17:29:12.277 CET
+Begin processing the 36001st record. Run 251721, Event 308008831, LumiSection 226 at 04-Feb-2016 17:30:10.088 CET
+[2016-02-04 17:30:28.095450 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4A06D1EE-452C-E511-8ACA-02163E012AE3.root?tried=p05614923d48978.cern.ch,p05614923t70873.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 38001st record. Run 251721, Event 307202008, LumiSection 226 at 04-Feb-2016 17:31:07.814 CET
+Number of events written in the tree: 40000
+Begin processing the 40001st record. Run 251721, Event 311522239, LumiSection 228 at 04-Feb-2016 17:32:15.024 CET
+%MSG-e FailedPropagation:  TrackRefitter:TrackRefitter 04-Feb-2016 17:32:27 CET  Run: 251721 Event: 310093203
+ too many iterations trying to reach plane 
+%MSG
+[2016-02-04 17:32:30.003379 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4A06D1EE-452C-E511-8ACA-02163E012AE3.root?tried=p05614923d48978.cern.ch,p05614923t70873.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 42001st record. Run 251721, Event 310488495, LumiSection 228 at 04-Feb-2016 17:33:11.962 CET
+Begin processing the 44001st record. Run 251721, Event 311227169, LumiSection 228 at 04-Feb-2016 17:34:06.495 CET
+[2016-02-04 17:34:32.686753 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4A06D1EE-452C-E511-8ACA-02163E012AE3.root?tried=p05614923d48978.cern.ch,p05614923t70873.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+04-Feb-2016 17:34:37 CET  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/4A06D1EE-452C-E511-8ACA-02163E012AE3.root
+04-Feb-2016 17:34:37 CET  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/52D98705-432C-E511-A5E6-02163E0139D5.root
+%MSG-w XrdAdaptor:  file_open 04-Feb-2016 17:34:37 CET PostProcessEvent
+Data is served from cern.ch instead of original site infn.it
+%MSG
+04-Feb-2016 17:34:37 CET  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/52D98705-432C-E511-A5E6-02163E0139D5.root
+%MSG-e RunLumiMerging:  source 04-Feb-2016 17:34:40 CET PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+Begin processing the 46001st record. Run 251721, Event 137075223, LumiSection 121 at 04-Feb-2016 17:35:01.893 CET
+Begin processing the 48001st record. Run 251721, Event 137280186, LumiSection 121 at 04-Feb-2016 17:35:47.688 CET
+Number of events written in the tree: 50000
+Begin processing the 50001st record. Run 251721, Event 136206919, LumiSection 121 at 04-Feb-2016 17:36:35.357 CET
+[2016-02-04 17:36:48.226931 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/52D98705-432C-E511-A5E6-02163E0139D5.root?tried=lxfsrg29a08.cern.ch,p05614923a26314.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 52001st record. Run 251721, Event 155978454, LumiSection 133 at 04-Feb-2016 17:37:23.364 CET
+Begin processing the 54001st record. Run 251721, Event 155040889, LumiSection 133 at 04-Feb-2016 17:38:07.717 CET
+[2016-02-04 17:38:48.445574 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/52D98705-432C-E511-A5E6-02163E0139D5.root?tried=lxfsrg29a08.cern.ch,p05614923a26314.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+Begin processing the 56001st record. Run 251721, Event 156042563, LumiSection 133 at 04-Feb-2016 17:38:55.807 CET
+Begin processing the 58001st record. Run 251721, Event 168585134, LumiSection 141 at 04-Feb-2016 17:39:46.118 CET
+Number of events written in the tree: 60000
+Begin processing the 60001st record. Run 251721, Event 168455081, LumiSection 141 at 04-Feb-2016 17:40:33.935 CET
+[2016-02-04 17:40:49.313362 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/52D98705-432C-E511-A5E6-02163E0139D5.root?tried=lxfsrg29a08.cern.ch,p05614923a26314.cern.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+04-Feb-2016 17:41:18 CET  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/52D98705-432C-E511-A5E6-02163E0139D5.root
+04-Feb-2016 17:41:18 CET  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/5E4E1911-482C-E511-A3CC-02163E012B9F.root
+%MSG-w XrdAdaptor:  file_open 04-Feb-2016 17:41:18 CET PostProcessEvent
+Data is served from cern.ch instead of original site infn.it
+%MSG
+04-Feb-2016 17:41:18 CET  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/5E4E1911-482C-E511-A3CC-02163E012B9F.root
+%MSG-e RunLumiMerging:  source 04-Feb-2016 17:41:20 CET PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+Begin processing the 62001st record. Run 251721, Event 223642867, LumiSection 176 at 04-Feb-2016 17:41:23.015 CET
+Begin processing the 64001st record. Run 251721, Event 224432175, LumiSection 176 at 04-Feb-2016 17:42:13.038 CET
+Begin processing the 66001st record. Run 251721, Event 223986563, LumiSection 176 at 04-Feb-2016 17:43:02.352 CET
+Begin processing the 68001st record. Run 251721, Event 254081092, LumiSection 194 at 04-Feb-2016 17:43:56.807 CET
+Number of events written in the tree: 70000
+Begin processing the 70001st record. Run 251721, Event 253330465, LumiSection 194 at 04-Feb-2016 17:44:50.188 CET
+Begin processing the 72001st record. Run 251721, Event 253148136, LumiSection 194 at 04-Feb-2016 17:45:42.843 CET
+Begin processing the 74001st record. Run 251721, Event 264644224, LumiSection 201 at 04-Feb-2016 17:46:35.237 CET
+Begin processing the 76001st record. Run 251721, Event 265871353, LumiSection 201 at 04-Feb-2016 17:47:29.418 CET
+Begin processing the 78001st record. Run 251721, Event 265958038, LumiSection 201 at 04-Feb-2016 17:48:22.276 CET
+04-Feb-2016 17:48:40 CET  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias2/RECO/PromptReco-v1/000/251/721/00000/5E4E1911-482C-E511-A3CC-02163E012B9F.root
+n track max = 374
+n particle max = 0
+n HF tower max = 580
+n HF rechit max = 1723
+n vertex max = 8
+Number of events written in the tree: 78733
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 OutOfBounds          -w TrackRefitter:Tr                       1        1
+    2 XrdAdaptor           -w file_open                              5        5
+    3 FailedPropagation    -e TrackRefitter:Tr                       1        1
+    4 RunLumiMerging       -e source                                 4        4
+    5 fileAction           -s file_close                             5        5
+    6 fileAction           -s file_open                             10       10
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 OutOfBounds          251721/99590505                   
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 FailedPropagation    251721/310093203                  
+    4 RunLumiMerging       PostProcessEvent PostProcessEvent PostProcessEvent
+    5 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    6 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 6                   6
+Error                   5                   5
+System                 15                  15

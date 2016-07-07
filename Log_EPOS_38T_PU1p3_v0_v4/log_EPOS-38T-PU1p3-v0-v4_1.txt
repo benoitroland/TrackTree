@@ -1,0 +1,96 @@
+17-May-2016 18:46:19 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/02938E7B-DCE7-E511-B9B5-002590A4FFE8.root
+%MSG-w XrdAdaptor:  file_open 17-May-2016 18:46:19 CEST pre-events
+Data is served from desy.de instead of original site infn.it
+%MSG
+17-May-2016 18:46:53 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/02938E7B-DCE7-E511-B9B5-002590A4FFE8.root
+you are going to run on EPOS-38T-PU1p3
+
+Begin processing the 1st record. Run 1, Event 2004784, LumiSection 10429 at 17-May-2016 18:47:26.442 CEST
+Begin processing the 2001st record. Run 1, Event 2528166, LumiSection 13151 at 17-May-2016 18:48:42.195 CEST
+Begin processing the 4001st record. Run 1, Event 2554005, LumiSection 13285 at 17-May-2016 18:51:07.995 CEST
+Begin processing the 6001st record. Run 1, Event 2585227, LumiSection 13448 at 17-May-2016 18:52:25.627 CEST
+Begin processing the 8001st record. Run 1, Event 3411595, LumiSection 17746 at 17-May-2016 18:53:11.660 CEST
+%MSG-w OutOfBounds:  TrackRefitter:TrackRefitter 17-May-2016 18:53:39 CEST  Run: 1 Event: 3462164
+Prob Q outside the bounds of the quality word. Defaulting to Prob=0. Prob = 1 QualityWord = 0
+%MSG
+Number of events written in the tree: 10000
+Begin processing the 10001st record. Run 1, Event 3553553, LumiSection 18485 at 17-May-2016 18:53:53.513 CEST
+Begin processing the 12001st record. Run 1, Event 3564012, LumiSection 18539 at 17-May-2016 18:54:31.945 CEST
+17-May-2016 18:55:05 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/02938E7B-DCE7-E511-B9B5-002590A4FFE8.root
+17-May-2016 18:55:05 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/02A168C6-E5E7-E511-B988-001E67396ACC.root
+%MSG-w XrdAdaptor:  file_open 17-May-2016 18:55:05 CEST PostProcessEvent
+Data is served from desy.de instead of original site infn.it
+%MSG
+17-May-2016 18:55:05 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/02A168C6-E5E7-E511-B988-001E67396ACC.root
+Begin processing the 14001st record. Run 1, Event 6547425, LumiSection 34057 at 17-May-2016 18:55:10.967 CEST
+Begin processing the 16001st record. Run 1, Event 7363027, LumiSection 38300 at 17-May-2016 18:55:52.255 CEST
+Begin processing the 18001st record. Run 1, Event 8647719, LumiSection 44982 at 17-May-2016 18:56:33.461 CEST
+Number of events written in the tree: 20000
+Begin processing the 20001st record. Run 1, Event 9498695, LumiSection 49409 at 17-May-2016 18:57:13.136 CEST
+Begin processing the 22001st record. Run 1, Event 9731395, LumiSection 50619 at 17-May-2016 18:57:55.255 CEST
+Begin processing the 24001st record. Run 1, Event 9997162, LumiSection 52001 at 17-May-2016 18:58:34.452 CEST
+17-May-2016 18:58:44 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/02A168C6-E5E7-E511-B988-001E67396ACC.root
+17-May-2016 18:58:44 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/04990A00-DEE7-E511-BC47-0025907B4FC4.root
+%MSG-w XrdAdaptor:  file_open 17-May-2016 18:58:44 CEST PostProcessEvent
+Data is served from desy.de instead of original site infn.it
+%MSG
+17-May-2016 18:58:44 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/04990A00-DEE7-E511-BC47-0025907B4FC4.root
+Begin processing the 26001st record. Run 1, Event 2086921, LumiSection 10856 at 17-May-2016 18:59:13.906 CEST
+Begin processing the 28001st record. Run 1, Event 2735650, LumiSection 14230 at 17-May-2016 18:59:54.275 CEST
+Number of events written in the tree: 30000
+Begin processing the 30001st record. Run 1, Event 4345629, LumiSection 22605 at 17-May-2016 19:00:34.734 CEST
+Begin processing the 32001st record. Run 1, Event 4893619, LumiSection 25455 at 17-May-2016 19:01:15.634 CEST
+17-May-2016 19:01:51 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/04990A00-DEE7-E511-BC47-0025907B4FC4.root
+17-May-2016 19:01:51 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/08E1A2E2-DFE7-E511-B549-002590A3C970.root
+%MSG-w XrdAdaptor:  file_open 17-May-2016 19:01:51 CEST PostProcessEvent
+Data is served from desy.de instead of original site infn.it
+%MSG
+17-May-2016 19:01:51 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/08E1A2E2-DFE7-E511-B549-002590A3C970.root
+Begin processing the 34001st record. Run 1, Event 6415932, LumiSection 33373 at 17-May-2016 19:01:56.444 CEST
+Begin processing the 36001st record. Run 1, Event 6425622, LumiSection 33424 at 17-May-2016 19:02:36.005 CEST
+Begin processing the 38001st record. Run 1, Event 6551431, LumiSection 34078 at 17-May-2016 19:03:14.510 CEST
+Number of events written in the tree: 40000
+Begin processing the 40001st record. Run 1, Event 7058664, LumiSection 36717 at 17-May-2016 19:03:53.010 CEST
+Begin processing the 42001st record. Run 1, Event 7195239, LumiSection 37427 at 17-May-2016 19:04:32.465 CEST
+Begin processing the 44001st record. Run 1, Event 7315665, LumiSection 38053 at 17-May-2016 19:05:13.005 CEST
+Begin processing the 46001st record. Run 1, Event 7407638, LumiSection 38532 at 17-May-2016 19:05:49.499 CEST
+Begin processing the 48001st record. Run 1, Event 7652642, LumiSection 39806 at 17-May-2016 19:06:26.942 CEST
+17-May-2016 19:06:34 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/08E1A2E2-DFE7-E511-B549-002590A3C970.root
+17-May-2016 19:06:34 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/0A56187D-9EE8-E511-BE1F-02163E013D2D.root
+%MSG-w XrdAdaptor:  file_open 17-May-2016 19:06:34 CEST PostProcessEvent
+Data is served from desy.de instead of original site infn.it
+%MSG
+17-May-2016 19:06:34 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/0A56187D-9EE8-E511-BE1F-02163E013D2D.root
+Number of events written in the tree: 50000
+Begin processing the 50001st record. Run 1, Event 5984374, LumiSection 31129 at 17-May-2016 19:07:05.922 CEST
+Begin processing the 52001st record. Run 1, Event 8928568, LumiSection 46443 at 17-May-2016 19:07:40.332 CEST
+17-May-2016 19:07:59 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/ReggeGribovPartonMC_13TeV-EPOS/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v4/00000/0A56187D-9EE8-E511-BE1F-02163E013D2D.root
+n track max = 277
+n particle max = 1023
+n HF tower max = 577
+n HF rechit max = 851
+n vertex max = 6
+Number of events written in the tree: 53061
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 OutOfBounds          -w TrackRefitter:Tr                       1        1
+    2 XrdAdaptor           -w file_open                              5        5
+    3 fileAction           -s file_close                             5        5
+    4 fileAction           -s file_open                             10       10
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 OutOfBounds          1/3462164                         
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 6                   6
+System                 15                  15

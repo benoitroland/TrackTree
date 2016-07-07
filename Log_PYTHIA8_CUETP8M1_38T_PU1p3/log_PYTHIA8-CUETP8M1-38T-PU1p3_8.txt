@@ -1,0 +1,106 @@
+10-May-2016 09:50:20 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/303FB422-F366-E511-B5F6-0025905B8592.root
+%MSG-w XrdAdaptor:  file_open 10-May-2016 09:50:21 CEST pre-events
+Data is served from roma1.infn.it instead of original site infn.it
+%MSG
+10-May-2016 09:50:23 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/303FB422-F366-E511-B5F6-0025905B8592.root
+you are going to run on PYTHIA8-CUETP8M1-38T-PU1p3
+
+Begin processing the 1st record. Run 1, Event 116785561, LumiSection 631957 at 10-May-2016 09:51:40.039 CEST
+Begin processing the 2001st record. Run 1, Event 117519369, LumiSection 635927 at 10-May-2016 09:54:11.028 CEST
+Begin processing the 4001st record. Run 1, Event 120853961, LumiSection 653972 at 10-May-2016 09:56:02.781 CEST
+Begin processing the 6001st record. Run 1, Event 130208937, LumiSection 704594 at 10-May-2016 09:58:41.090 CEST
+Begin processing the 8001st record. Run 1, Event 130222025, LumiSection 704665 at 10-May-2016 10:00:36.625 CEST
+Number of events written in the tree: 10000
+Begin processing the 10001st record. Run 1, Event 130713745, LumiSection 707326 at 10-May-2016 10:02:36.284 CEST
+Begin processing the 12001st record. Run 1, Event 131848417, LumiSection 713466 at 10-May-2016 10:04:54.617 CEST
+10-May-2016 10:06:27 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/303FB422-F366-E511-B5F6-0025905B8592.root
+10-May-2016 10:06:27 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32AEC144-F366-E511-805A-0025905964BE.root
+%MSG-w XrdAdaptor:  file_open 10-May-2016 10:06:28 CEST PostProcessEvent
+Data is served from roma1.infn.it instead of original site infn.it
+%MSG
+10-May-2016 10:06:28 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32AEC144-F366-E511-805A-0025905964BE.root
+Begin processing the 14001st record. Run 1, Event 174524833, LumiSection 944398 at 10-May-2016 10:06:53.795 CEST
+Begin processing the 16001st record. Run 1, Event 175801953, LumiSection 951309 at 10-May-2016 10:08:13.868 CEST
+Begin processing the 18001st record. Run 1, Event 177541473, LumiSection 960723 at 10-May-2016 10:09:28.644 CEST
+[2016-05-10 10:09:40.284592 +0200][Error  ][XRootD            ] [cmsrm-xrootd01.roma1.infn.it:1094] Handling error while processing kXR_open (file: /store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32AEC144-F366-E511-805A-0025905964BE.root?tried=cmsrm-xrootd01.roma1.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Operation expired.
+[2016-05-10 10:09:40.284849 +0200][Error  ][XRootD            ] [cmsrm-xrootd01.roma1.infn.it:1094] Unable to get the response to request kXR_open (file: /store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32AEC144-F366-E511-805A-0025905964BE.root?tried=cmsrm-xrootd01.roma1.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat )
+Number of events written in the tree: 20000
+Begin processing the 20001st record. Run 1, Event 177585977, LumiSection 960963 at 10-May-2016 10:10:28.933 CEST
+Begin processing the 22001st record. Run 1, Event 177660449, LumiSection 961366 at 10-May-2016 10:11:38.558 CEST
+Begin processing the 24001st record. Run 1, Event 178240473, LumiSection 964505 at 10-May-2016 10:13:03.962 CEST
+Begin processing the 26001st record. Run 1, Event 178334073, LumiSection 965012 at 10-May-2016 10:14:21.122 CEST
+[2016-05-10 10:14:40.316418 +0200][Error  ][XRootD            ] [cmsrm-xrootd01.roma1.infn.it:1094] Handling error while processing kXR_open (file: /store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32AEC144-F366-E511-805A-0025905964BE.root?tried=cmsrm-xrootd01.roma1.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Operation expired.
+[2016-05-10 10:14:40.316563 +0200][Error  ][XRootD            ] [cmsrm-xrootd01.roma1.infn.it:1094] Unable to get the response to request kXR_open (file: /store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32AEC144-F366-E511-805A-0025905964BE.root?tried=cmsrm-xrootd01.roma1.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat )
+10-May-2016 10:15:50 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32AEC144-F366-E511-805A-0025905964BE.root
+10-May-2016 10:15:50 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32F109BA-F266-E511-9D4D-0025905A60A8.root
+%MSG-w XrdAdaptor:  file_open 10-May-2016 10:15:50 CEST PostProcessEvent
+Data is served from roma1.infn.it instead of original site infn.it
+%MSG
+10-May-2016 10:15:51 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32F109BA-F266-E511-9D4D-0025905A60A8.root
+Begin processing the 28001st record. Run 1, Event 121286065, LumiSection 656310 at 10-May-2016 10:16:19.929 CEST
+Number of events written in the tree: 30000
+Begin processing the 30001st record. Run 1, Event 121345601, LumiSection 656632 at 10-May-2016 10:17:44.536 CEST
+Begin processing the 32001st record. Run 1, Event 121448841, LumiSection 657191 at 10-May-2016 10:18:48.846 CEST
+[2016-05-10 10:19:12.079514 +0200][Error  ][XRootDTransport   ] Message 0xe1b0b0a0, stream [1, 0] is a response that we're no longer interested in (timed out)
+[2016-05-10 10:19:12.079792 +0200][Error  ][XRootDTransport   ] Message 0xe1b0b0a0, stream [2, 0] is a response that we're no longer interested in (timed out)
+Begin processing the 34001st record. Run 1, Event 125995073, LumiSection 681792 at 10-May-2016 10:20:09.556 CEST
+Begin processing the 36001st record. Run 1, Event 121708265, LumiSection 658595 at 10-May-2016 10:21:23.526 CEST
+Begin processing the 38001st record. Run 1, Event 122096497, LumiSection 660695 at 10-May-2016 10:22:28.397 CEST
+Number of events written in the tree: 40000
+Begin processing the 40001st record. Run 1, Event 122763377, LumiSection 664304 at 10-May-2016 10:23:32.213 CEST
+10-May-2016 10:24:37 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/32F109BA-F266-E511-9D4D-0025905A60A8.root
+10-May-2016 10:24:37 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/34FBA2FA-F866-E511-856C-0025905A611E.root
+%MSG-w XrdAdaptor:  file_open 10-May-2016 10:24:38 CEST PostProcessEvent
+Data is served from roma1.infn.it instead of original site infn.it
+%MSG
+10-May-2016 10:24:39 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/34FBA2FA-F866-E511-856C-0025905A611E.root
+Begin processing the 42001st record. Run 1, Event 29961865, LumiSection 162132 at 10-May-2016 10:25:41.209 CEST
+Begin processing the 44001st record. Run 1, Event 29790801, LumiSection 161206 at 10-May-2016 10:27:48.285 CEST
+Begin processing the 46001st record. Run 1, Event 29814977, LumiSection 161336 at 10-May-2016 10:28:56.209 CEST
+Begin processing the 48001st record. Run 1, Event 29816977, LumiSection 161347 at 10-May-2016 10:30:42.937 CEST
+Number of events written in the tree: 50000
+Begin processing the 50001st record. Run 1, Event 29827817, LumiSection 161406 at 10-May-2016 10:32:31.521 CEST
+Begin processing the 52001st record. Run 1, Event 29836809, LumiSection 161455 at 10-May-2016 10:34:19.208 CEST
+Begin processing the 54001st record. Run 1, Event 29842753, LumiSection 161487 at 10-May-2016 10:36:36.184 CEST
+10-May-2016 10:38:22 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/34FBA2FA-F866-E511-856C-0025905A611E.root
+10-May-2016 10:38:22 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/366CEAA7-FA66-E511-BACB-0025905A609E.root
+%MSG-w XrdAdaptor:  file_open 10-May-2016 10:38:23 CEST PostProcessEvent
+Data is served from roma1.infn.it instead of original site infn.it
+%MSG
+10-May-2016 10:38:23 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/366CEAA7-FA66-E511-BACB-0025905A609E.root
+Begin processing the 56001st record. Run 1, Event 174551993, LumiSection 944546 at 10-May-2016 10:38:46.250 CEST
+Begin processing the 58001st record. Run 1, Event 175392585, LumiSection 949094 at 10-May-2016 10:40:14.692 CEST
+Number of events written in the tree: 60000
+Begin processing the 60001st record. Run 1, Event 175573841, LumiSection 950075 at 10-May-2016 10:41:51.901 CEST
+Begin processing the 62001st record. Run 1, Event 178212937, LumiSection 964356 at 10-May-2016 10:43:26.760 CEST
+Begin processing the 64001st record. Run 1, Event 178299945, LumiSection 964827 at 10-May-2016 10:44:46.418 CEST
+Begin processing the 66001st record. Run 1, Event 179830641, LumiSection 973109 at 10-May-2016 10:46:33.614 CEST
+Begin processing the 68001st record. Run 1, Event 181937761, LumiSection 984512 at 10-May-2016 10:48:00.752 CEST
+10-May-2016 10:49:31 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETP8M1_13TeV-pythia8/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/366CEAA7-FA66-E511-BACB-0025905A609E.root
+n track max = 349
+n particle max = 954
+n HF tower max = 565
+n HF rechit max = 848
+n vertex max = 5
+Number of events written in the tree: 69936
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                              5        5
+    2 fileAction           -s file_close                             5        5
+    3 fileAction           -s file_open                             10       10
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    2 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    3 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 5                   5
+System                 15                  15
