@@ -1,0 +1,100 @@
+13-May-2016 10:47:06 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/7AE5BE21-1A69-E511-B269-003048FFD756.root
+%MSG-w XrdAdaptor:  file_open 13-May-2016 10:47:06 CEST pre-events
+Data is served from desy.de instead of original site infn.it
+%MSG
+13-May-2016 10:47:08 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/7AE5BE21-1A69-E511-B269-003048FFD756.root
+you are going to run on HERWIGPP-CUETHS1-38T-PU1p3
+
+Begin processing the 1st record. Run 1, Event 174254, LumiSection 1085 at 13-May-2016 10:47:44.101 CEST
+Begin processing the 2001st record. Run 1, Event 1459039, LumiSection 9077 at 13-May-2016 10:48:49.914 CEST
+Begin processing the 4001st record. Run 1, Event 1924842, LumiSection 11974 at 13-May-2016 10:49:34.640 CEST
+Begin processing the 6001st record. Run 1, Event 3569821, LumiSection 22207 at 13-May-2016 10:50:20.984 CEST
+Begin processing the 8001st record. Run 1, Event 4400805, LumiSection 27377 at 13-May-2016 10:51:07.905 CEST
+Number of events written in the tree: 10000
+Begin processing the 10001st record. Run 1, Event 5456082, LumiSection 33942 at 13-May-2016 10:51:54.070 CEST
+Begin processing the 12001st record. Run 1, Event 5546930, LumiSection 34507 at 13-May-2016 10:52:41.010 CEST
+13-May-2016 10:53:25 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/7AE5BE21-1A69-E511-B269-003048FFD756.root
+13-May-2016 10:53:25 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/7EDC2067-1369-E511-B2CB-0025905A48D0.root
+%MSG-w XrdAdaptor:  file_open 13-May-2016 10:53:25 CEST PostProcessEvent
+Data is served from desy.de instead of original site infn.it
+%MSG
+13-May-2016 10:53:25 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/7EDC2067-1369-E511-B2CB-0025905A48D0.root
+Begin processing the 14001st record. Run 1, Event 6843932, LumiSection 42575 at 13-May-2016 10:53:31.817 CEST
+Begin processing the 16001st record. Run 1, Event 6848547, LumiSection 42603 at 13-May-2016 10:54:15.658 CEST
+Begin processing the 18001st record. Run 1, Event 7123865, LumiSection 44317 at 13-May-2016 10:55:02.027 CEST
+Number of events written in the tree: 20000
+Begin processing the 20001st record. Run 1, Event 7137039, LumiSection 44398 at 13-May-2016 10:55:49.925 CEST
+Begin processing the 22001st record. Run 1, Event 8689755, LumiSection 54058 at 13-May-2016 10:56:34.600 CEST
+Begin processing the 24001st record. Run 1, Event 8743238, LumiSection 54390 at 13-May-2016 10:57:21.182 CEST
+Begin processing the 26001st record. Run 1, Event 9850755, LumiSection 61280 at 13-May-2016 10:58:05.805 CEST
+13-May-2016 10:58:45 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/7EDC2067-1369-E511-B2CB-0025905A48D0.root
+13-May-2016 10:58:45 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/80896005-1869-E511-8369-003048FFD770.root
+%MSG-w XrdAdaptor:  file_open 13-May-2016 10:58:45 CEST PostProcessEvent
+Data is served from desy.de instead of original site infn.it
+%MSG
+13-May-2016 10:58:45 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/80896005-1869-E511-8369-003048FFD770.root
+Begin processing the 28001st record. Run 1, Event 6967657, LumiSection 43345 at 13-May-2016 10:58:51.427 CEST
+Number of events written in the tree: 30000
+Begin processing the 30001st record. Run 1, Event 7351199, LumiSection 45731 at 13-May-2016 10:59:37.766 CEST
+Begin processing the 32001st record. Run 1, Event 7695032, LumiSection 47870 at 13-May-2016 11:00:23.008 CEST
+Begin processing the 34001st record. Run 1, Event 7749358, LumiSection 48207 at 13-May-2016 11:01:08.186 CEST
+Begin processing the 36001st record. Run 1, Event 8277289, LumiSection 51491 at 13-May-2016 11:01:52.887 CEST
+Begin processing the 38001st record. Run 1, Event 8080445, LumiSection 50267 at 13-May-2016 11:02:37.257 CEST
+Number of events written in the tree: 40000
+Begin processing the 40001st record. Run 1, Event 8352262, LumiSection 51958 at 13-May-2016 11:03:21.889 CEST
+13-May-2016 11:03:52 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/80896005-1869-E511-8369-003048FFD770.root
+13-May-2016 11:03:52 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/80BB28CB-1669-E511-B65E-0025905A609A.root
+%MSG-w XrdAdaptor:  file_open 13-May-2016 11:03:52 CEST PostProcessEvent
+Data is served from desy.de instead of original site infn.it
+%MSG
+13-May-2016 11:03:53 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/80BB28CB-1669-E511-B65E-0025905A609A.root
+Begin processing the 42001st record. Run 1, Event 3290194, LumiSection 20468 at 13-May-2016 11:04:09.982 CEST
+Begin processing the 44001st record. Run 1, Event 3324144, LumiSection 20679 at 13-May-2016 11:04:53.784 CEST
+Begin processing the 46001st record. Run 1, Event 4853712, LumiSection 30194 at 13-May-2016 11:05:37.996 CEST
+Begin processing the 48001st record. Run 1, Event 3821239, LumiSection 23771 at 13-May-2016 11:06:22.781 CEST
+Number of events written in the tree: 50000
+Begin processing the 50001st record. Run 1, Event 3912416, LumiSection 24339 at 13-May-2016 11:07:09.005 CEST
+Begin processing the 52001st record. Run 1, Event 5972902, LumiSection 37157 at 13-May-2016 11:07:56.510 CEST
+Begin processing the 54001st record. Run 1, Event 4304259, LumiSection 26777 at 13-May-2016 11:08:38.599 CEST
+13-May-2016 11:08:51 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/80BB28CB-1669-E511-B65E-0025905A609A.root
+13-May-2016 11:08:51 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/820C1977-1369-E511-8D25-0025905A6092.root
+%MSG-w XrdAdaptor:  file_open 13-May-2016 11:08:51 CEST PostProcessEvent
+Data is served from desy.de instead of original site infn.it
+%MSG
+13-May-2016 11:08:52 CEST  Successfully opened file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/820C1977-1369-E511-8D25-0025905A6092.root
+Begin processing the 56001st record. Run 1, Event 2762216, LumiSection 17183 at 13-May-2016 11:09:24.822 CEST
+Begin processing the 58001st record. Run 1, Event 3218774, LumiSection 20023 at 13-May-2016 11:10:08.139 CEST
+Number of events written in the tree: 60000
+Begin processing the 60001st record. Run 1, Event 3927231, LumiSection 24431 at 13-May-2016 11:10:52.159 CEST
+Begin processing the 62001st record. Run 1, Event 4615183, LumiSection 28710 at 13-May-2016 11:11:35.560 CEST
+Begin processing the 64001st record. Run 1, Event 4872697, LumiSection 30313 at 13-May-2016 11:12:18.814 CEST
+Begin processing the 66001st record. Run 1, Event 9627467, LumiSection 59891 at 13-May-2016 11:13:01.428 CEST
+Begin processing the 68001st record. Run 1, Event 6841862, LumiSection 42562 at 13-May-2016 11:13:45.609 CEST
+13-May-2016 11:13:58 CEST  Closed file root://xrootd-cms.infn.it//store/mc/RunIISpring15DR74/MinBias_TuneCUETHS1_13TeV-herwigpp/GEN-SIM-RECODEBUG/PU1p3RealisticRecodebug_castor_741_p1_mcRun2_Realistic_50ns_v0-v2/10000/820C1977-1369-E511-8D25-0025905A6092.root
+n track max = 378
+n particle max = 1984
+n HF tower max = 554
+n HF rechit max = 828
+n vertex max = 6
+Number of events written in the tree: 68702
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                              5        5
+    2 fileAction           -s file_close                             5        5
+    3 fileAction           -s file_open                             10       10
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    2 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    3 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 5                   5
+System                 15                  15

@@ -1,0 +1,90 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+09-May-2016 16:10:00 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E02A266F-1379-E511-B23C-0025905A60DA.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:10:01 CEST pre-events
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:10:02 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E02A266F-1379-E511-B23C-0025905A60DA.root
+you are going to run on data-38T
+
+09-May-2016 16:10:23 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E02A266F-1379-E511-B23C-0025905A60DA.root
+09-May-2016 16:10:23 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E23F8B07-9A79-E511-A072-0025905B855C.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:10:23 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:10:24 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E23F8B07-9A79-E511-A072-0025905B855C.root
+09-May-2016 16:10:30 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E23F8B07-9A79-E511-A072-0025905B855C.root
+09-May-2016 16:10:30 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E2563B79-C579-E511-97A3-0025905A607E.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:10:31 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:10:31 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E2563B79-C579-E511-97A3-0025905A607E.root
+09-May-2016 16:10:34 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E2563B79-C579-E511-97A3-0025905A607E.root
+09-May-2016 16:10:34 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E26B496A-4379-E511-91AA-0025905A6070.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:10:35 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:10:35 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E26B496A-4379-E511-91AA-0025905A6070.root
+09-May-2016 16:10:39 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E26B496A-4379-E511-91AA-0025905A6070.root
+09-May-2016 16:10:39 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E2716A4A-4F7A-E511-BE1B-0025905A6138.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:10:47 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:10:47 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E2716A4A-4F7A-E511-BE1B-0025905A6138.root
+09-May-2016 16:11:07 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E2716A4A-4F7A-E511-BE1B-0025905A6138.root
+09-May-2016 16:11:07 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E42EE33F-4B79-E511-8EC9-0025905A60C6.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:11:08 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:11:08 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E42EE33F-4B79-E511-8EC9-0025905A60C6.root
+09-May-2016 16:11:14 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E42EE33F-4B79-E511-8EC9-0025905A60C6.root
+09-May-2016 16:11:14 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E4EBD7C0-1D79-E511-976E-0025905A6060.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:11:14 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:11:15 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E4EBD7C0-1D79-E511-976E-0025905A6060.root
+09-May-2016 16:11:27 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E4EBD7C0-1D79-E511-976E-0025905A6060.root
+09-May-2016 16:11:27 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E848F169-8B79-E511-99B8-0025905B855E.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:11:28 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:11:29 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E848F169-8B79-E511-99B8-0025905B855E.root
+09-May-2016 16:12:21 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/E848F169-8B79-E511-99B8-0025905B855E.root
+09-May-2016 16:12:21 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/EA59E9C8-9979-E511-8809-0025905A60EE.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:12:21 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:12:22 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/EA59E9C8-9979-E511-8809-0025905A60EE.root
+09-May-2016 16:12:40 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/EA59E9C8-9979-E511-8809-0025905A60EE.root
+09-May-2016 16:12:40 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/EC4E9F34-1D79-E511-8A2F-0025905A612E.root
+%MSG-w XrdAdaptor:  file_open 09-May-2016 16:12:41 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+09-May-2016 16:12:41 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/EC4E9F34-1D79-E511-8A2F-0025905A612E.root
+09-May-2016 16:12:58 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias4/RECO/16Oct2015-v1/50000/EC4E9F34-1D79-E511-8A2F-0025905A612E.root
+n track max = 0
+n particle max = 0
+n HF tower max = 0
+n HF rechit max = 0
+n vertex max = 0
+Number of events written in the tree: 0
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                             10       10
+    2 fileAction           -s file_close                            10       10
+    3 fileAction           -s file_open                             20       20
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       BeforeEvents     BeforeEvents
+    2 fileAction           BeforeEvents     BeforeEvents     BeforeEvents
+    3 fileAction           pre-events       pre-events       BeforeEvents
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                10                  10
+System                 30                  30

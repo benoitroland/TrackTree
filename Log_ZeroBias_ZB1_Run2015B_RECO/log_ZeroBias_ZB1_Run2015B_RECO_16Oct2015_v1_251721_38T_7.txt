@@ -1,0 +1,173 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+06-May-2016 11:25:18 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2A55ECB0-2D79-E511-98EA-0026189438FA.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:25:20 CEST pre-events
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:25:21 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2A55ECB0-2D79-E511-98EA-0026189438FA.root
+you are going to run on data-38T
+
+06-May-2016 11:25:30 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2A55ECB0-2D79-E511-98EA-0026189438FA.root
+06-May-2016 11:25:30 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2ACDB752-CF79-E511-805E-0025905A48FC.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:25:30 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:25:30 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2ACDB752-CF79-E511-805E-0025905A48FC.root
+06-May-2016 11:25:34 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2ACDB752-CF79-E511-805E-0025905A48FC.root
+06-May-2016 11:25:34 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2AD92534-2979-E511-AC43-002618943947.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:25:34 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:25:35 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2AD92534-2979-E511-AC43-002618943947.root
+06-May-2016 11:25:45 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2AD92534-2979-E511-AC43-002618943947.root
+06-May-2016 11:25:45 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2C666D39-B679-E511-8D87-0025905A60E4.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:25:46 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:25:48 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2C666D39-B679-E511-8D87-0025905A60E4.root
+06-May-2016 11:25:53 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2C666D39-B679-E511-8D87-0025905A60E4.root
+06-May-2016 11:25:53 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2C9B6A30-2979-E511-9BC4-00248C0BE014.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:25:54 CEST BeforeEvents
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:25:54 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2C9B6A30-2979-E511-9BC4-00248C0BE014.root
+L1 Technical Trigger L1Tech_BPTX_PreBPTX.v0 is present with bit number 16
+L1 Technical Trigger L1Tech_BPTX_minus.v0 is present with bit number 2
+L1 Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 is present with bit number 6
+L1 Technical Trigger L1Tech_BPTX_plus.v0 is present with bit number 1
+L1 Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 is present with bit number 5
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 is present with bit number 0
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus_instance1.v0 is present with bit number 4
+L1 Technical Trigger L1Tech_BPTX_plus_OR_minus.v0 is present with bit number 3
+L1 Technical Trigger L1Tech_BPTX_quiet.v0 is present with bit number 7
+L1 Technical Trigger L1Tech_CASTOR_Gap.v0 is present with bit number 56
+L1 Technical Trigger L1Tech_CASTOR_HaloMuon.v0 is present with bit number 59
+L1 Technical Trigger L1Tech_CASTOR_HighJet.v0 is present with bit number 57
+L1 Technical Trigger L1Tech_CASTOR_MediumJet.v0 is present with bit number 58
+L1 Technical Trigger L1Tech_DT_GlobalOR.v0 is present with bit number 20
+L1 Technical Trigger L1Tech_HCAL_HBHE_totalOR.v0 is present with bit number 12
+L1 Technical Trigger L1Tech_HCAL_HF_MMP_or_MPP.v1 is present with bit number 10
+L1 Technical Trigger L1Tech_HCAL_HF_coincidence_PM.v2 is present with bit number 9
+L1 Technical Trigger L1Tech_HCAL_HF_single_channel.v0 is present with bit number 8
+L1 Technical Trigger L1Tech_HCAL_HO_totalOR.v0 is present with bit number 11
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus1_Cosmics.v0 is present with bit number 27
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus2_Cosmics.v0 is present with bit number 26
+L1 Technical Trigger L1Tech_RPC_TTU_barrel_Cosmics.v0 is present with bit number 24
+L1 Technical Trigger L1Tech_RPC_TTU_pointing_Cosmics.v0 is present with bit number 25
+L1 Technical Trigger L1Tech_TOTEM_0 is present with bit number 52
+L1 Technical Trigger L1Tech_TOTEM_1 is present with bit number 53
+L1 Technical Trigger L1Tech_TOTEM_2 is present with bit number 54
+L1 Technical Trigger L1Tech_TOTEM_3 is present with bit number 55
+L1 Technical Trigger L1Tech__TTU_RB0_Cosmics.v0 is present with bit number 28
+
+element 0 contains Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 with bit number 6
+element 1 contains Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 with bit number 5
+element 2 contains Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 with bit number 0
+element 3 contains Technical Trigger L1Tech_BPTX_quiet.v0 with bit number 7
+
+HLT configuration with process name HLT is valid
+
+New trigger menu found
+HLT_ZeroBias_part0_v1 with index 421 exists in the current menu
+HLT_ZeroBias_part1_v1 with index 422 exists in the current menu
+HLT_ZeroBias_part2_v1 with index 423 exists in the current menu
+HLT_ZeroBias_part3_v1 with index 424 exists in the current menu
+HLT_ZeroBias_part4_v1 with index 425 exists in the current menu
+HLT_ZeroBias_part5_v1 with index 426 exists in the current menu
+HLT_ZeroBias_part6_v1 with index 427 exists in the current menu
+HLT_ZeroBias_part7_v1 with index 428 exists in the current menu
+HLT_L1Tech5_BPTX_PlusOnly_v1 with index 429 exists in the current menu
+HLT_L1Tech6_BPTX_MinusOnly_v1 with index 430 exists in the current menu
+HLT_L1Tech7_NoBPTX_v1 with index 431 exists in the current menu
+
+Begin processing the 1st record. Run 251721, Event 206433349, LumiSection 165 at 06-May-2016 11:26:21.158 CEST
+Begin processing the 2001st record. Run 251721, Event 206725186, LumiSection 165 at 06-May-2016 11:27:26.848 CEST
+Begin processing the 4001st record. Run 251721, Event 206824963, LumiSection 165 at 06-May-2016 11:28:26.462 CEST
+Begin processing the 6001st record. Run 251721, Event 215306249, LumiSection 171 at 06-May-2016 11:29:38.254 CEST
+Begin processing the 8001st record. Run 251721, Event 215253612, LumiSection 171 at 06-May-2016 11:30:35.241 CEST
+Number of events written in the tree: 10000
+Begin processing the 10001st record. Run 251721, Event 215269140, LumiSection 171 at 06-May-2016 11:31:31.835 CEST
+Begin processing the 12001st record. Run 251721, Event 217366926, LumiSection 172 at 06-May-2016 11:32:28.132 CEST
+Begin processing the 14001st record. Run 251721, Event 216781011, LumiSection 172 at 06-May-2016 11:33:29.612 CEST
+Begin processing the 16001st record. Run 251721, Event 217568834, LumiSection 172 at 06-May-2016 11:34:29.287 CEST
+06-May-2016 11:34:59 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2C9B6A30-2979-E511-9BC4-00248C0BE014.root
+06-May-2016 11:34:59 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2E3C1DA2-6F7A-E511-BB5A-0026189438DF.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:34:59 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:34:59 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2E3C1DA2-6F7A-E511-BB5A-0026189438DF.root
+%MSG-e RunLumiMerging:  source 06-May-2016 11:35:04 CEST PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+Begin processing the 18001st record. Run 251721, Event 243524426, LumiSection 188 at 06-May-2016 11:35:42.920 CEST
+Number of events written in the tree: 20000
+Begin processing the 20001st record. Run 251721, Event 244384449, LumiSection 188 at 06-May-2016 11:36:39.037 CEST
+Begin processing the 22001st record. Run 251721, Event 243858323, LumiSection 188 at 06-May-2016 11:37:34.881 CEST
+06-May-2016 11:37:48 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2E3C1DA2-6F7A-E511-BB5A-0026189438DF.root
+06-May-2016 11:37:48 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2EDF3296-0A79-E511-97D4-0025905A60CA.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:37:48 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:37:49 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2EDF3296-0A79-E511-97D4-0025905A60CA.root
+06-May-2016 11:37:55 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/2EDF3296-0A79-E511-97D4-0025905A60CA.root
+06-May-2016 11:37:55 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/30DE973F-4B79-E511-BFCA-0025905A60C6.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:37:55 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:37:56 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/30DE973F-4B79-E511-BFCA-0025905A60C6.root
+%MSG-e RunLumiMerging:  source 06-May-2016 11:38:00 CEST PostProcessEvent
+ProductHolderBase::mergeTheProduct
+Two run/lumi products for the same run/lumi which should be equal are not
+Using the first, ignoring the second
+className = edm::ConditionsInRunBlock
+moduleLabel = conditionsInEdm
+instance = 
+process = RECO
+
+%MSG
+Begin processing the 24001st record. Run 251721, Event 173645631, LumiSection 144 at 06-May-2016 11:38:53.660 CEST
+Begin processing the 26001st record. Run 251721, Event 173487959, LumiSection 144 at 06-May-2016 11:39:53.348 CEST
+Begin processing the 28001st record. Run 251721, Event 172483807, LumiSection 144 at 06-May-2016 11:41:01.194 CEST
+06-May-2016 11:41:02 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/30DE973F-4B79-E511-BFCA-0025905A60C6.root
+06-May-2016 11:41:02 CEST  Initiating request to open file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/32D27E76-3279-E511-8070-0026189438AC.root
+%MSG-w XrdAdaptor:  file_open 06-May-2016 11:41:02 CEST PostProcessEvent
+Data is served from lnl.infn.it instead of original site infn.it
+%MSG
+06-May-2016 11:41:03 CEST  Successfully opened file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/32D27E76-3279-E511-8070-0026189438AC.root
+06-May-2016 11:41:07 CEST  Closed file root://xrootd-cms.infn.it//store/data/Run2015B/ZeroBias1/RECO/16Oct2015-v1/50000/32D27E76-3279-E511-8070-0026189438AC.root
+n track max = 363
+n particle max = 0
+n HF tower max = 583
+n HF rechit max = 1723
+n vertex max = 8
+Number of events written in the tree: 28032
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                              9        9
+    2 RunLumiMerging       -e source                                 2        2
+    3 fileAction           -s file_close                             9        9
+    4 fileAction           -s file_open                             18       18
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       BeforeEvents     PostProcessEvent
+    2 RunLumiMerging       PostProcessEvent PostProcessEvent 
+    3 fileAction           BeforeEvents     BeforeEvents     PostEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 9                   9
+Error                   2                   2
+System                 27                  27

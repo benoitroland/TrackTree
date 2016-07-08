@@ -1,0 +1,479 @@
+DEBUG 2015-10-14 17:25:54,979: 	 Executing command: 'submit'
+DEBUG 2015-10-14 17:25:54,981: 	 Found CRAB cache file /afs/desy.de/user/r/roland/.crab3
+DEBUG 2015-10-14 17:25:55,003: 	 Checking credentials
+DEBUG 2015-10-14 17:25:55,003: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-14 17:25:55,003: 	 Getting proxy life time left
+DEBUG 2015-10-14 17:25:56,207: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 43138
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:25:56,610: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+No VOMS attributes found!
+
+ retcode : 1
+DEBUG 2015-10-14 17:25:56,610: 	 Proxy valid for 00:00:00 hours
+DEBUG 2015-10-14 17:25:56,610: 	 Creating new proxy for 24:00 hours with VO group '' and VO role 'NULL'.
+DEBUG 2015-10-14 17:27:54,805: 	 Executing : 
+ command : voms-proxy-init -voms cms:/cms -valid 24:00 -rfc
+ output : None
+ error: None
+ retcode : 0
+DEBUG 2015-10-14 17:27:55,208: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86398
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:27:55,611: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86398
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:27:56,013: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u10747 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+/cms/dcms/Role=NULL/Capability=NULL
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:27:56,013: 	 Proxy created.
+INFO 2015-10-14 17:27:56,014: 	 Will use CRAB configuration file crab3_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3.py
+DEBUG 2015-10-14 17:27:56,014: 	 Loading CRAB configuration file.
+DEBUG 2015-10-14 17:27:56,040: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2015-10-14 17:27:56,143: 	 Using VO group 'dcms' as specified in the CRAB configuration file.
+DEBUG 2015-10-14 17:27:56,476: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-14 17:27:56,476: 	 Checking credentials
+DEBUG 2015-10-14 17:27:56,477: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-14 17:27:56,477: 	 Getting proxy life time left
+DEBUG 2015-10-14 17:27:56,879: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86397
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:27:57,582: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86396
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:27:57,583: 	 Proxy valid for 23:59:57 hours
+DEBUG 2015-10-14 17:27:57,985: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u10747 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+/cms/dcms/Role=NULL/Capability=NULL
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:27:59,186: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+DEBUG 2015-10-14 17:27:59,295: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-14 17:27:59,295: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2015-10-14 17:27:59,295: 	 Calculating hash of /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland_cmsweb.cern.ch for credential name
+DEBUG 2015-10-14 17:27:59,898: 	 Executing : 
+ command : myproxy-info -l ddb909ac619b674c01ed0df63cd0d386593291b3 -s myproxy.cern.ch
+ output : 
+ error: ERROR from myproxy-server:
+no credentials found for user ddb909ac619b674c01ed0df63cd0d386593291b3, owner "/C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland" 
+
+ retcode : 1
+DEBUG 2015-10-14 17:27:59,898: 	 Myproxy is valid: -1
+DEBUG 2015-10-14 17:28:00,000: 	 Executing : 
+ command : openssl x509 -noout -in ~/.globus/usercert.pem -dates
+ output : notBefore=Mar  5 16:36:05 2015 GMT
+notAfter=Apr  3 16:36:05 2016 GMT
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-14 17:28:00,132: 	 Delegating a myproxy for 720:00 hours
+DEBUG 2015-10-14 17:28:00,132: 	 Calculating hash of /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland_cmsweb.cern.ch for credential name
+DEBUG 2015-10-14 17:28:18,159: 	 Executing : 
+ command : export GT_PROXY_MODE=rfc ; myproxy-init -d -n -s myproxy.cern.ch -x -R '/DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch' -x -Z '/DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch' -l 'ddb909ac619b674c01ed0df63cd0d386593291b3' -t 168:00 -c 720:00
+ output : Your identity: /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+Creating proxy .......................................... Done
+Proxy Verify OK
+Your proxy is valid until: Fri Nov 13 16:28:17 2015
+A proxy valid for 720 hours (30.0 days) for user ddb909ac619b674c01ed0df63cd0d386593291b3 now exists on myproxy.cern.ch.
+
+ error: 
+ retcode : 0
+DEBUG 2015-10-14 17:28:18,159: 	 Calculating hash of /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland_cmsweb.cern.ch for credential name
+DEBUG 2015-10-14 17:28:19,162: 	 Executing : 
+ command : myproxy-info -l ddb909ac619b674c01ed0df63cd0d386593291b3 -s myproxy.cern.ch
+ output : username: ddb909ac619b674c01ed0df63cd0d386593291b3
+owner: /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  timeleft: 719:59:58  (30.0 days)
+
+ error: 
+ retcode : 0
+DEBUG 2015-10-14 17:28:19,163: 	 My-proxy delegated.
+DEBUG 2015-10-14 17:28:19,163: 	 Command use: submit
+DEBUG 2015-10-14 17:28:19,163: 	 Options use: ['-c', 'crab3_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3.py']
+DEBUG 2015-10-14 17:28:19,472: 	 CRABClient version: 3.3.1510
+DEBUG 2015-10-14 17:28:19,472: 	 Instance is prod
+DEBUG 2015-10-14 17:28:19,472: 	 Server base url is cmsweb.cern.ch
+DEBUG 2015-10-14 17:28:19,472: 	 Command url /crabserver/prod/workflow
+DEBUG 2015-10-14 17:28:19,472: 	 Started submission
+DEBUG 2015-10-14 17:28:19,472: 	 Working on /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+DEBUG 2015-10-14 17:28:20,455: 	 Loading required information from the environment
+DEBUG 2015-10-14 17:28:20,455: 	 Found CMSSW_7_4_2 for slc6_amd64_gcc491 with base /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2
+DEBUG 2015-10-14 17:28:20,479: 	 UNIQUE NAME: tarUUID 34011359-bd57-4dcd-8407-66428b9b0da2 
+DEBUG 2015-10-14 17:28:20,479: 	 self.config: from WMCore.Configuration import Configuration
+config = Configuration()
+config.section_('User')
+config.User.voGroup = 'dcms'
+config.section_('General')
+config.General.workArea = 'MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3'
+config.General.requestName = 'MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3'
+config.section_('JobType')
+config.JobType.psetName = 'MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3.py'
+config.JobType.pluginName = 'Analysis'
+config.section_('Data')
+config.Data.inputDataset = '/MinBias_TuneCUETP8M1_13TeV-pythia8/RunIISpring15DR74-PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/GEN-SIM-RECODEBUG'
+config.Data.unitsPerJob = 100
+config.Data.splitting = 'EventAwareLumiBased'
+config.Data.totalUnits = 1000
+config.section_('Site')
+config.Site.storageSite = 'T2_DE_DESY'
+
+DEBUG 2015-10-14 17:28:20,479: 	 self.config.JobType.psetName: MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3.py
+INFO 2015-10-14 17:28:20,479: 	 Importing CMSSW configuration MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3.py
+INFO 2015-10-14 17:28:27,490: 	 Finished importing CMSSW configuration MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3.py
+DEBUG 2015-10-14 17:28:27,490: 	 Writing CMSSW configuration to /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/inputs/PSet.py
+DEBUG 2015-10-14 17:28:27,621: 	 The following EDM output files will be collected: []
+DEBUG 2015-10-14 17:28:27,621: 	 The following TFile output files will be collected: ['PYTHIA8-CUETP8M1-38T-noPU.root']
+DEBUG 2015-10-14 17:28:27,621: 	 The following user output files will be collected: []
+DEBUG 2015-10-14 17:28:27,621: 	 Loading required information from the environment
+DEBUG 2015-10-14 17:28:27,621: 	 Found CMSSW_7_4_2 for slc6_amd64_gcc491 with base /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2
+DEBUG 2015-10-14 17:28:27,621: 	 Making tarball in /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/inputs/34011359-bd57-4dcd-8407-66428b9b0da2default.tgz
+DEBUG 2015-10-14 17:28:27,622: 	 Checking directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/lib
+DEBUG 2015-10-14 17:28:27,622: 	 Adding directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/lib to tarball
+DEBUG 2015-10-14 17:28:27,727: 	 Checking directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/biglib
+DEBUG 2015-10-14 17:28:27,727: 	 Adding directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/biglib to tarball
+DEBUG 2015-10-14 17:28:27,728: 	 Checking directory /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/module
+DEBUG 2015-10-14 17:28:27,829: 	 Uploading archive /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/inputs/34011359-bd57-4dcd-8407-66428b9b0da2default.tgz to the CRAB cache. Using URI https://cmsweb.cern.ch/crabcache
+DEBUG 2015-10-14 17:28:28,213: 	 Result uploading input files: ba5055936d60e4806cb366b3294c40ea09fa6e1df1db1a9a260faf424b9ab8ec.tar.gz 
+WARNING 2015-10-14 17:28:28,214: 	 Warning: The following output files will not be published, as they are not EDM files: ['PYTHIA8-CUETP8M1-38T-noPU.root']
+INFO 2015-10-14 17:28:28,214: 	 Sending the request to the server
+DEBUG 2015-10-14 17:28:28,214: 	 Submitting {'maxjobruntime': 1250, 'ignorelocality': 0, 'savelogsflag': 0, 'useparent': 0, 'asyncdest': 'T2_DE_DESY', 'algoargs': 100, 'cachefilename': 'ba5055936d60e4806cb366b3294c40ea09fa6e1df1db1a9a260faf424b9ab8ec.tar.gz', 'numcores': 1, 'addoutputfiles': [], 'generator': 'pythia', 'maxmemory': 2000, 'publishdbsurl': 'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', 'vogroup': 'dcms', 'priority': 10, 'jobsw': 'CMSSW_7_4_2', 'edmoutfiles': [], 'cacheurl': 'https://cmsweb.cern.ch/crabcache', 'inputdata': '/MinBias_TuneCUETP8M1_13TeV-pythia8/RunIISpring15DR74-PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2/GEN-SIM-RECODEBUG', 'dryrun': 0, 'workflow': 'crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3', 'adduserfiles': [], 'nonprodsw': 0, 'tfileoutfiles': ['PYTHIA8-CUETP8M1-38T-noPU.root'], 'oneEventMode': 0, 'saveoutput': 1, 'publication': 1, 'jobarch': 'slc6_amd64_gcc491', 'totalunits': 1000, 'splitalgo': 'EventAwareLumiBased', 'nonvaliddata': 0, 'dbsurl': 'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', 'publishgroupname': 0, 'publishname2': '', 'jobtype': 'Analysis'} 
+DEBUG 2015-10-14 17:28:28,214: 	 Encoded submit request: maxjobruntime=1250&ignorelocality=0&savelogsflag=0&useparent=0&asyncdest=T2_DE_DESY&algoargs=100&cachefilename=ba5055936d60e4806cb366b3294c40ea09fa6e1df1db1a9a260faf424b9ab8ec.tar.gz&numcores=1&generator=pythia&maxmemory=2000&publishdbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fphys03%2FDBSWriter&vogroup=dcms&priority=10&jobsw=CMSSW_7_4_2&cacheurl=https%3A%2F%2Fcmsweb.cern.ch%2Fcrabcache&inputdata=%2FMinBias_TuneCUETP8M1_13TeV-pythia8%2FRunIISpring15DR74-PU1p3RealisticRecodebug_741_p1_mcRun2_Realistic_50ns_v0-v2%2FGEN-SIM-RECODEBUG&dryrun=0&workflow=crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3&nonprodsw=0&oneEventMode=0&saveoutput=1&publication=1&jobarch=slc6_amd64_gcc491&totalunits=1000&splitalgo=EventAwareLumiBased&nonvaliddata=0&dbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fglobal%2FDBSReader&publishgroupname=0&publishname2=&jobtype=Analysis&tfileoutfiles=PYTHIA8-CUETP8M1-38T-noPU.root
+DEBUG 2015-10-14 17:28:29,161: 	 Result: {'result': [{'RequestName': '151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3'}]}
+INFO 2015-10-14 17:28:29,164: 	 Success: Your task has been delivered to the CRAB3 server.
+INFO 2015-10-14 17:28:29,164: 	 Task name: 151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-14 17:28:29,164: 	 Please use 'crab status' to check how the submission process proceeds.
+DEBUG 2015-10-14 17:28:29,164: 	 About to return
+INFO 2015-10-14 17:28:29,168: 	 Log file is /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab.log
+DEBUG 2015-10-14 17:31:39,720: 	 Executing command: 'status'
+DEBUG 2015-10-14 17:31:39,720: 	 Found CRAB cache file /afs/desy.de/user/r/roland/.crab3
+DEBUG 2015-10-14 17:31:39,729: 	 Checking credentials
+DEBUG 2015-10-14 17:31:39,729: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-14 17:31:39,729: 	 Getting proxy life time left
+DEBUG 2015-10-14 17:31:40,933: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86173
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:31:41,336: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86172
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:31:41,337: 	 Proxy valid for 23:56:13 hours
+DEBUG 2015-10-14 17:31:41,457: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-14 17:31:41,457: 	 Checking credentials
+DEBUG 2015-10-14 17:31:41,458: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-14 17:31:41,458: 	 Getting proxy life time left
+DEBUG 2015-10-14 17:31:41,860: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86172
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:31:42,764: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86171
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:31:42,764: 	 Proxy valid for 23:56:12 hours
+DEBUG 2015-10-14 17:31:43,195: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+DEBUG 2015-10-14 17:31:43,303: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-14 17:31:43,303: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2015-10-14 17:31:43,303: 	 Calculating hash of /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland_cmsweb.cern.ch for credential name
+DEBUG 2015-10-14 17:31:44,006: 	 Executing : 
+ command : myproxy-info -l ddb909ac619b674c01ed0df63cd0d386593291b3 -s myproxy.cern.ch
+ output : username: ddb909ac619b674c01ed0df63cd0d386593291b3
+owner: /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  timeleft: 719:56:34  (30.0 days)
+
+ error: 
+ retcode : 0
+DEBUG 2015-10-14 17:31:44,007: 	 Myproxy is valid: 2591794
+DEBUG 2015-10-14 17:31:44,008: 	 Command use: status
+DEBUG 2015-10-14 17:31:44,008: 	 Options use: ['-d', 'MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/']
+DEBUG 2015-10-14 17:31:44,385: 	 CRABClient version: 3.3.1510
+DEBUG 2015-10-14 17:31:44,385: 	 Instance is prod
+DEBUG 2015-10-14 17:31:44,385: 	 Server base url is cmsweb.cern.ch
+DEBUG 2015-10-14 17:31:44,385: 	 Command url /crabserver/prod/workflow
+DEBUG 2015-10-14 17:31:44,386: 	 Looking up detailed status of task 151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+DEBUG 2015-10-14 17:31:46,040: 	 {'status': 'SUBMITTED', 'schedd': 'crab3test-2@vocms095.cern.ch', 'saveLogs': 'F', 'jobsPerStatus': {'idle': 6}, 'jobs': {'1': {'State': 'idle'}, '3': {'State': 'idle'}, '2': {'State': 'idle'}, '5': {'State': 'idle'}, '4': {'State': 'idle'}, '6': {'State': 'idle'}}, 'publication': {}, 'taskWarningMsg': [], 'publicationFailures': {}, 'outdatasets': None, 'statusFailureMsg': '', 'taskFailureMsg': '', 'failedJobdefs': 0, 'ASOURL': 'https://cmsweb.cern.ch/couchdb', 'totalJobdefs': 0, 'jobSetID': '151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3', 'jobdefErrors': [], 'collector': 'cmssrv221.fnal.gov,vocms099.cern.ch', 'jobList': [['idle', 1], ['idle', 3], ['idle', 2], ['idle', 5], ['idle', 4], ['idle', 6]]}
+INFO 2015-10-14 17:31:46,040: 	 CRAB project directory:		/afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-14 17:31:46,040: 	 Task name:			151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-14 17:31:46,040: 	 Grid scheduler:			crab3test-2@vocms095.cern.ch
+INFO 2015-10-14 17:31:46,040: 	 Task status:			SUBMITTED
+INFO 2015-10-14 17:31:46,041: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=crab&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=151014_152829%3Aroland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-14 17:31:46,041: 	 
+Jobs status:			idle          100.0% (6/6)
+INFO 2015-10-14 17:31:46,041: 	 
+No publication information available yet
+INFO 2015-10-14 17:31:46,043: 	 Log file is /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab.log
+DEBUG 2015-10-14 17:32:02,968: 	 Executing command: 'status'
+DEBUG 2015-10-14 17:32:02,968: 	 Found CRAB cache file /afs/desy.de/user/r/roland/.crab3
+DEBUG 2015-10-14 17:32:02,975: 	 Checking credentials
+DEBUG 2015-10-14 17:32:02,975: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-14 17:32:02,975: 	 Getting proxy life time left
+DEBUG 2015-10-14 17:32:03,378: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86150
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:32:04,281: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86149
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:32:04,282: 	 Proxy valid for 23:55:50 hours
+DEBUG 2015-10-14 17:32:04,392: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-14 17:32:04,392: 	 Checking credentials
+DEBUG 2015-10-14 17:32:04,392: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-14 17:32:04,393: 	 Getting proxy life time left
+DEBUG 2015-10-14 17:32:04,795: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86149
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:32:05,399: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86148
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-14 17:32:05,399: 	 Proxy valid for 23:55:49 hours
+DEBUG 2015-10-14 17:32:05,737: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+DEBUG 2015-10-14 17:32:05,844: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-14 17:32:05,844: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2015-10-14 17:32:05,844: 	 Calculating hash of /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland_cmsweb.cern.ch for credential name
+DEBUG 2015-10-14 17:32:08,150: 	 Executing : 
+ command : myproxy-info -l ddb909ac619b674c01ed0df63cd0d386593291b3 -s myproxy.cern.ch
+ output : username: ddb909ac619b674c01ed0df63cd0d386593291b3
+owner: /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  timeleft: 719:56:09  (30.0 days)
+
+ error: 
+ retcode : 0
+DEBUG 2015-10-14 17:32:08,151: 	 Myproxy is valid: 2591769
+DEBUG 2015-10-14 17:32:08,151: 	 Command use: status
+DEBUG 2015-10-14 17:32:08,151: 	 Options use: ['-d', 'MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/']
+DEBUG 2015-10-14 17:32:08,522: 	 CRABClient version: 3.3.1510
+DEBUG 2015-10-14 17:32:08,522: 	 Instance is prod
+DEBUG 2015-10-14 17:32:08,522: 	 Server base url is cmsweb.cern.ch
+DEBUG 2015-10-14 17:32:08,522: 	 Command url /crabserver/prod/workflow
+DEBUG 2015-10-14 17:32:08,522: 	 Looking up detailed status of task 151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+DEBUG 2015-10-14 17:32:12,950: 	 {'status': 'SUBMITTED', 'schedd': 'crab3test-2@vocms095.cern.ch', 'saveLogs': 'F', 'jobsPerStatus': {'idle': 6}, 'jobs': {'1': {'State': 'idle'}, '3': {'State': 'idle'}, '2': {'State': 'idle'}, '5': {'State': 'idle'}, '4': {'State': 'idle'}, '6': {'State': 'idle'}}, 'publication': {}, 'taskWarningMsg': [], 'publicationFailures': {}, 'outdatasets': None, 'statusFailureMsg': '', 'taskFailureMsg': '', 'failedJobdefs': 0, 'ASOURL': 'https://cmsweb.cern.ch/couchdb', 'totalJobdefs': 0, 'jobSetID': '151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3', 'jobdefErrors': [], 'collector': 'cmssrv221.fnal.gov,vocms099.cern.ch', 'jobList': [['idle', 1], ['idle', 3], ['idle', 2], ['idle', 5], ['idle', 4], ['idle', 6]]}
+INFO 2015-10-14 17:32:12,950: 	 CRAB project directory:		/afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-14 17:32:12,950: 	 Task name:			151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-14 17:32:12,950: 	 Grid scheduler:			crab3test-2@vocms095.cern.ch
+INFO 2015-10-14 17:32:12,950: 	 Task status:			SUBMITTED
+INFO 2015-10-14 17:32:12,950: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=crab&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=151014_152829%3Aroland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-14 17:32:12,950: 	 
+Jobs status:			idle          100.0% (6/6)
+INFO 2015-10-14 17:32:12,950: 	 
+No publication information available yet
+INFO 2015-10-14 17:32:12,952: 	 Log file is /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab.log
+DEBUG 2015-10-15 10:14:51,141: 	 Executing command: 'status'
+DEBUG 2015-10-15 10:14:51,142: 	 Found CRAB cache file /afs/desy.de/user/r/roland/.crab3
+DEBUG 2015-10-15 10:14:51,157: 	 Checking credentials
+DEBUG 2015-10-15 10:14:51,157: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-15 10:14:51,157: 	 Getting proxy life time left
+DEBUG 2015-10-15 10:14:51,559: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 43187
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-15 10:14:51,962: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+No VOMS attributes found!
+
+ retcode : 1
+DEBUG 2015-10-15 10:14:51,962: 	 Proxy valid for 00:00:00 hours
+DEBUG 2015-10-15 10:14:51,962: 	 Creating new proxy for 24:00 hours with VO group '' and VO role 'NULL'.
+DEBUG 2015-10-15 10:14:58,373: 	 Executing : 
+ command : voms-proxy-init -voms cms:/cms -valid 24:00 -rfc
+ output : None
+ error: None
+ retcode : 0
+DEBUG 2015-10-15 10:14:58,776: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86399
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-15 10:14:59,179: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86397
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-15 10:14:59,582: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u10747 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+/cms/dcms/Role=NULL/Capability=NULL
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-15 10:14:59,582: 	 Proxy created.
+DEBUG 2015-10-15 10:14:59,703: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-15 10:14:59,703: 	 Checking credentials
+DEBUG 2015-10-15 10:14:59,703: 	 Found proxy file /tmp/x509up_u10747
+DEBUG 2015-10-15 10:14:59,703: 	 Getting proxy life time left
+DEBUG 2015-10-15 10:15:00,105: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -timeleft
+ output : 86397
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-15 10:15:00,508: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u10747 -actimeleft
+ output : 86396
+
+ error: Picked up _JAVA_OPTIONS: -Xmx256M
+
+ retcode : 0
+DEBUG 2015-10-15 10:15:00,509: 	 Proxy valid for 23:59:57 hours
+DEBUG 2015-10-15 10:15:00,826: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+DEBUG 2015-10-15 10:15:00,934: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+
+ error: WARNING: can't open config file: /build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/tmp/BUILDROOT/ef35842be28ecca6d10195ea8182a5ac/build/dmwmbld/srv/state/dmwmbld/builds/comp_gcc481/w/slc6_amd64_gcc481/external/openssl/1.0.1p/ssl/openssl.cnf
+
+ retcode : 0
+DEBUG 2015-10-15 10:15:00,934: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2015-10-15 10:15:00,934: 	 Calculating hash of /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland_cmsweb.cern.ch for credential name
+DEBUG 2015-10-15 10:15:01,637: 	 Executing : 
+ command : myproxy-info -l ddb909ac619b674c01ed0df63cd0d386593291b3 -s myproxy.cern.ch
+ output : username: ddb909ac619b674c01ed0df63cd0d386593291b3
+owner: /C=DE/O=GermanGrid/OU=DESY/CN=Benoit Roland
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms(045|052|021|031|0118|0118a|0119).cern.ch
+  timeleft: 703:13:16  (29.3 days)
+
+ error: 
+ retcode : 0
+DEBUG 2015-10-15 10:15:01,638: 	 Myproxy is valid: 2531596
+DEBUG 2015-10-15 10:15:01,638: 	 Command use: status
+DEBUG 2015-10-15 10:15:01,638: 	 Options use: ['-d', 'MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/']
+DEBUG 2015-10-15 10:15:01,977: 	 CRABClient version: 3.3.1510
+DEBUG 2015-10-15 10:15:01,978: 	 Instance is prod
+DEBUG 2015-10-15 10:15:01,978: 	 Server base url is cmsweb.cern.ch
+DEBUG 2015-10-15 10:15:01,978: 	 Command url /crabserver/prod/workflow
+DEBUG 2015-10-15 10:15:01,978: 	 Looking up detailed status of task 151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+DEBUG 2015-10-15 10:15:02,312: 	 {'status': 'FAILED', 'schedd': 'crab3test-2@vocms095.cern.ch', 'saveLogs': 'F', 'jobsPerStatus': {'failed': 6}, 'jobs': {'1': {'State': 'failed', 'Error': [134, 'CmsRunFailure', {}]}, '3': {'State': 'failed', 'Error': [134, 'CmsRunFailure', {}]}, '2': {'State': 'failed', 'Error': [134, 'CmsRunFailure', {}]}, '5': {'State': 'failed', 'Error': [134, 'CmsRunFailure', {}]}, '4': {'State': 'failed', 'Error': [134, 'CmsRunFailure', {}]}, '6': {'State': 'failed', 'Error': [134, 'CmsRunFailure', {}]}}, 'publication': {}, 'taskWarningMsg': [], 'publicationFailures': {}, 'outdatasets': None, 'statusFailureMsg': '', 'taskFailureMsg': '', 'failedJobdefs': 0, 'ASOURL': 'https://cmsweb.cern.ch/couchdb', 'totalJobdefs': 0, 'jobSetID': '151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3', 'jobdefErrors': [], 'collector': 'cmssrv221.fnal.gov,vocms099.cern.ch', 'jobList': [['failed', 1], ['failed', 3], ['failed', 2], ['failed', 5], ['failed', 4], ['failed', 6]]}
+INFO 2015-10-15 10:15:02,312: 	 CRAB project directory:		/afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-15 10:15:02,312: 	 Task name:			151014_152829:roland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-15 10:15:02,312: 	 Grid scheduler:			crab3test-2@vocms095.cern.ch
+INFO 2015-10-15 10:15:02,312: 	 Task status:			FAILED
+INFO 2015-10-15 10:15:02,312: 	 Dashboard monitoring URL:	http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=crab&refresh=0&table=Jobs&p=1&records=25&activemenu=2&status=&site=&tid=151014_152829%3Aroland_crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3
+INFO 2015-10-15 10:15:02,313: 	 
+Jobs status:			failed        100.0% (6/6)
+INFO 2015-10-15 10:15:02,313: 	 
+No publication information available yet
+INFO 2015-10-15 10:15:02,313: 	 
+Error Summary: (use --verboseErrors for details about the errors)
+
+6 jobs failed with exit code 134
+
+Have a look at https://twiki.cern.ch/twiki/bin/viewauth/CMSPublic/JobExitCodes for a description of the exit codes.
+INFO 2015-10-15 10:15:02,322: 	 Log file is /afs/desy.de/user/r/roland/MinBiasAnalysis/CMSSW_7_4_2/src/TrackAnalysis/TrackTree/Crab-Submission/MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab_MinBias_TuneCUETP8M1_13TeV-pythia8_PU1p3/crab.log

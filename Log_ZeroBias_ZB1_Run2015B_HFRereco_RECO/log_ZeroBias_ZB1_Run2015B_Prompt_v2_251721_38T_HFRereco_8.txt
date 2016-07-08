@@ -1,0 +1,184 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+03-Feb-2016 17:29:48 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_52.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:29:48 CET pre-events
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:29:50 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_52.root
+you are going to run on data-HFRereco-38T
+
+L1 Technical Trigger L1Tech_BPTX_PreBPTX.v0 is present with bit number 16
+L1 Technical Trigger L1Tech_BPTX_minus.v0 is present with bit number 2
+L1 Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 is present with bit number 6
+L1 Technical Trigger L1Tech_BPTX_plus.v0 is present with bit number 1
+L1 Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 is present with bit number 5
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 is present with bit number 0
+L1 Technical Trigger L1Tech_BPTX_plus_AND_minus_instance1.v0 is present with bit number 4
+L1 Technical Trigger L1Tech_BPTX_plus_OR_minus.v0 is present with bit number 3
+L1 Technical Trigger L1Tech_BPTX_quiet.v0 is present with bit number 7
+L1 Technical Trigger L1Tech_CASTOR_Gap.v0 is present with bit number 56
+L1 Technical Trigger L1Tech_CASTOR_HaloMuon.v0 is present with bit number 59
+L1 Technical Trigger L1Tech_CASTOR_HighJet.v0 is present with bit number 57
+L1 Technical Trigger L1Tech_CASTOR_MediumJet.v0 is present with bit number 58
+L1 Technical Trigger L1Tech_DT_GlobalOR.v0 is present with bit number 20
+L1 Technical Trigger L1Tech_HCAL_HBHE_totalOR.v0 is present with bit number 12
+L1 Technical Trigger L1Tech_HCAL_HF_MMP_or_MPP.v1 is present with bit number 10
+L1 Technical Trigger L1Tech_HCAL_HF_coincidence_PM.v2 is present with bit number 9
+L1 Technical Trigger L1Tech_HCAL_HF_single_channel.v0 is present with bit number 8
+L1 Technical Trigger L1Tech_HCAL_HO_totalOR.v0 is present with bit number 11
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus1_Cosmics.v0 is present with bit number 27
+L1 Technical Trigger L1Tech_RPC_TTU_RBplus2_Cosmics.v0 is present with bit number 26
+L1 Technical Trigger L1Tech_RPC_TTU_barrel_Cosmics.v0 is present with bit number 24
+L1 Technical Trigger L1Tech_RPC_TTU_pointing_Cosmics.v0 is present with bit number 25
+L1 Technical Trigger L1Tech_TOTEM_0 is present with bit number 52
+L1 Technical Trigger L1Tech_TOTEM_1 is present with bit number 53
+L1 Technical Trigger L1Tech_TOTEM_2 is present with bit number 54
+L1 Technical Trigger L1Tech_TOTEM_3 is present with bit number 55
+L1 Technical Trigger L1Tech__TTU_RB0_Cosmics.v0 is present with bit number 28
+
+element 0 contains Technical Trigger L1Tech_BPTX_minus_AND_not_plus.v0 with bit number 6
+element 1 contains Technical Trigger L1Tech_BPTX_plus_AND_NOT_minus.v0 with bit number 5
+element 2 contains Technical Trigger L1Tech_BPTX_plus_AND_minus.v0 with bit number 0
+element 3 contains Technical Trigger L1Tech_BPTX_quiet.v0 with bit number 7
+
+HLT configuration with process name HLT is valid
+
+New trigger menu found
+HLT_ZeroBias_part0_v1 with index 421 exists in the current menu
+HLT_ZeroBias_part1_v1 with index 422 exists in the current menu
+HLT_ZeroBias_part2_v1 with index 423 exists in the current menu
+HLT_ZeroBias_part3_v1 with index 424 exists in the current menu
+HLT_ZeroBias_part4_v1 with index 425 exists in the current menu
+HLT_ZeroBias_part5_v1 with index 426 exists in the current menu
+HLT_ZeroBias_part6_v1 with index 427 exists in the current menu
+HLT_ZeroBias_part7_v1 with index 428 exists in the current menu
+HLT_L1Tech5_BPTX_PlusOnly_v1 with index 429 exists in the current menu
+HLT_L1Tech6_BPTX_MinusOnly_v1 with index 430 exists in the current menu
+HLT_L1Tech7_NoBPTX_v1 with index 431 exists in the current menu
+
+Begin processing the 1st record. Run 251721, Event 220286143, LumiSection 174 at 03-Feb-2016 17:30:29.853 CET
+Begin processing the 2001st record. Run 251721, Event 220898745, LumiSection 174 at 03-Feb-2016 17:32:11.982 CET
+Begin processing the 4001st record. Run 251721, Event 220185669, LumiSection 174 at 03-Feb-2016 17:33:28.848 CET
+03-Feb-2016 17:34:34 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_52.root
+03-Feb-2016 17:34:34 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_53.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:34:34 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:34:35 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_53.root
+Begin processing the 6001st record. Run 251721, Event 222222027, LumiSection 175 at 03-Feb-2016 17:34:59.920 CET
+Begin processing the 8001st record. Run 251721, Event 222536433, LumiSection 175 at 03-Feb-2016 17:36:08.090 CET
+Number of events written in the tree: 10000
+Begin processing the 10001st record. Run 251721, Event 222715740, LumiSection 175 at 03-Feb-2016 17:37:10.433 CET
+03-Feb-2016 17:37:45 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_53.root
+03-Feb-2016 17:37:45 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_54.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:37:45 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:37:45 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_54.root
+Begin processing the 12001st record. Run 251721, Event 223470460, LumiSection 176 at 03-Feb-2016 17:38:18.859 CET
+Begin processing the 14001st record. Run 251721, Event 224092154, LumiSection 176 at 03-Feb-2016 17:39:23.325 CET
+Begin processing the 16001st record. Run 251721, Event 223443051, LumiSection 176 at 03-Feb-2016 17:40:40.075 CET
+03-Feb-2016 17:41:14 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_54.root
+03-Feb-2016 17:41:14 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_55.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:41:14 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:41:14 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_55.root
+Begin processing the 18001st record. Run 251721, Event 225676699, LumiSection 177 at 03-Feb-2016 17:41:56.746 CET
+Number of events written in the tree: 20000
+Begin processing the 20001st record. Run 251721, Event 224860209, LumiSection 177 at 03-Feb-2016 17:43:09.766 CET
+Begin processing the 22001st record. Run 251721, Event 225909048, LumiSection 177 at 03-Feb-2016 17:44:24.105 CET
+03-Feb-2016 17:44:36 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_55.root
+03-Feb-2016 17:44:36 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_56.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:44:36 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:44:37 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_56.root
+Begin processing the 24001st record. Run 251721, Event 226412216, LumiSection 178 at 03-Feb-2016 17:45:34.347 CET
+Begin processing the 26001st record. Run 251721, Event 227423271, LumiSection 178 at 03-Feb-2016 17:46:34.551 CET
+Begin processing the 28001st record. Run 251721, Event 227600714, LumiSection 178 at 03-Feb-2016 17:47:40.353 CET
+03-Feb-2016 17:47:41 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_56.root
+03-Feb-2016 17:47:41 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_57.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:47:41 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:47:41 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_57.root
+Number of events written in the tree: 30000
+Begin processing the 30001st record. Run 251721, Event 228156432, LumiSection 179 at 03-Feb-2016 17:48:43.040 CET
+Begin processing the 32001st record. Run 251721, Event 228246934, LumiSection 179 at 03-Feb-2016 17:49:44.407 CET
+03-Feb-2016 17:50:37 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_57.root
+03-Feb-2016 17:50:37 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_58.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:50:37 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:50:38 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_58.root
+Begin processing the 34001st record. Run 251721, Event 231005136, LumiSection 180 at 03-Feb-2016 17:50:54.679 CET
+Begin processing the 36001st record. Run 251721, Event 230683028, LumiSection 180 at 03-Feb-2016 17:52:02.889 CET
+Begin processing the 38001st record. Run 251721, Event 229667279, LumiSection 180 at 03-Feb-2016 17:53:12.999 CET
+03-Feb-2016 17:53:56 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_58.root
+03-Feb-2016 17:53:56 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_59.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:53:57 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:53:57 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_59.root
+%MSG-e FailedPropagation:  TrackRefitter:TrackRefitter 03-Feb-2016 17:54:25 CET  Run: 251721 Event: 231336762
+ too many iterations trying to reach plane 
+%MSG
+Number of events written in the tree: 40000
+Begin processing the 40001st record. Run 251721, Event 231709903, LumiSection 181 at 03-Feb-2016 17:54:36.374 CET
+Begin processing the 42001st record. Run 251721, Event 231928719, LumiSection 181 at 03-Feb-2016 17:55:35.117 CET
+Begin processing the 44001st record. Run 251721, Event 231407259, LumiSection 181 at 03-Feb-2016 17:56:33.463 CET
+03-Feb-2016 17:56:55 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_59.root
+03-Feb-2016 17:56:55 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_6.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 17:56:55 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 17:56:55 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_6.root
+Begin processing the 46001st record. Run 251721, Event 148341964, LumiSection 128 at 03-Feb-2016 17:57:47.705 CET
+Begin processing the 48001st record. Run 251721, Event 147486422, LumiSection 128 at 03-Feb-2016 17:58:56.274 CET
+Number of events written in the tree: 50000
+Begin processing the 50001st record. Run 251721, Event 147621033, LumiSection 128 at 03-Feb-2016 17:59:55.448 CET
+03-Feb-2016 18:00:06 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_6.root
+03-Feb-2016 18:00:06 CET  Initiating request to open file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_60.root
+%MSG-w XrdAdaptor:  file_open 03-Feb-2016 18:00:06 CET PostProcessEvent
+Data is served from iihe.ac.be instead of original site infn.it
+%MSG
+03-Feb-2016 18:00:07 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_60.root
+Begin processing the 52001st record. Run 251721, Event 233338636, LumiSection 182 at 03-Feb-2016 18:01:05.540 CET
+%MSG-w OutOfBounds:  TrackRefitter:TrackRefitter 03-Feb-2016 18:01:19 CET  Run: 251721 Event: 233047124
+Prob Q outside the bounds of the quality word. Defaulting to Prob=0. Prob = 1 QualityWord = 167
+%MSG
+Begin processing the 54001st record. Run 251721, Event 234094963, LumiSection 182 at 03-Feb-2016 18:02:10.180 CET
+Begin processing the 56001st record. Run 251721, Event 233952079, LumiSection 182 at 03-Feb-2016 18:03:13.964 CET
+03-Feb-2016 18:03:15 CET  Closed file root://xrootd-cms.infn.it//store/user/hvanhaev/ZeroBias1/Run2015B-v1_LowPU_RERECO_74X_dataRun2_Prompt_v2_withCustomCond-v1/151008_130104/0000/output_data_rereco_60.root
+n track max = 366
+n particle max = 0
+n HF tower max = 578
+n HF rechit max = 1723
+n vertex max = 8
+Number of events written in the tree: 56068
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 OutOfBounds          -w TrackRefitter:Tr                       1        1
+    2 XrdAdaptor           -w file_open                             10       10
+    3 FailedPropagation    -e TrackRefitter:Tr                       1        1
+    4 fileAction           -s file_close                            10       10
+    5 fileAction           -s file_open                             20       20
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 OutOfBounds          251721/233047124                  
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 FailedPropagation    251721/231336762                  
+    4 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    5 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                11                  11
+Error                   1                   1
+System                 30                  30
